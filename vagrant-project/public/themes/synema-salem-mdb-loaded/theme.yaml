@@ -1,0 +1,8 @@
+name: 'Synema MDB'
+description: 'Starter theme for SynemaStudios.com with some basic MDB Layouts loaded.'
+author: 'Katelyn Salem'
+homepage: ''
+code: ''
+require:
+    - RainLab.Pages
+    - RainLab.Blog

@@ -35,4 +35,5 @@
   'RainLab\\Pages\\Classes\\Router' => 'plugins/rainlab/pages/classes/Router.php',
   'RainLab\\Pages\\Classes\\MenuItem' => 'plugins/rainlab/pages/classes/MenuItem.php',
   'RainLab\\Pages\\Classes\\MenuItemReference' => 'plugins/rainlab/pages/classes/MenuItemReference.php',
+  'system\\Controllers\\settings' => 'modules/system/controllers/settings.php',
 );
