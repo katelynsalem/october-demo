@@ -1,4 +1,4 @@
-1524612646a:1:{s:24:"site/scrollingNavbar.htm";a:8:{s:8:"fileName";s:24:"site/scrollingNavbar.htm";s:7:"content";s:2294:"description = "Scrolling Nav with Dropdown"
+1528238553a:1:{s:24:"site/scrollingNavbar.htm";a:8:{s:8:"fileName";s:24:"site/scrollingNavbar.htm";s:7:"content";s:2353:"description = "Scrolling Nav with Dropdown"
 
 [viewBag]
 
@@ -9,7 +9,7 @@ code = "mainmenu"
 <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
 
     <!-- Navbar brand -->
-    <a class="navbar-brand" href="#">Navbar</a>
+    <a class="navbar-brand" href="#"><img class="logo" src="/storage/app/media/nav-logo-synema.png"/></a>
 
     <!-- Collapse button -->
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -55,11 +55,12 @@ code = "mainmenu"
     <!-- Collapsible content -->
 
 </nav>
-<!--/.Navbar-->";s:5:"mtime";i:1524604953;s:6:"markup";s:2204:"<!--Navbar-->
+<!--/.Navbar-->
+";s:5:"mtime";i:1528237199;s:6:"markup";s:2262:"<!--Navbar-->
 <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
 
     <!-- Navbar brand -->
-    <a class="navbar-brand" href="#">Navbar</a>
+    <a class="navbar-brand" href="#"><img class="logo" src="/storage/app/media/nav-logo-synema.png"/></a>
 
     <!-- Collapse button -->
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"

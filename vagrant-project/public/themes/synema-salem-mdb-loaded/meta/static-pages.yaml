@@ -14,3 +14,5 @@ static-pages:
         subpages-child-one: {  }
         subpages-child-two: {  }
         subpages-child-three: {  }
+    test2: {  }
+    team: {  }

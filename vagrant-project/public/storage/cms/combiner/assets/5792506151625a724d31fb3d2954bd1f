@@ -1,0 +1,222 @@
+/* Your custom styles */
+/* Theme colors */
+.synema-red {
+  background-color: #da1f27 !important; }
+.synema-black {
+  background-color: #141414 !important; }
+.synema-white {
+  background-color: #f7f7f7 !important; }
+
+/* Fonts */
+
+@font-face {
+    font-family: 'Nexa Bold';
+    src: url('../themes/synema-salem-mdb-loaded/assets/font/nexabold/nexa_bold-webfont.woff2') format('woff2'),
+         url('../themes/synema-salem-mdb-loaded/assets/font/nexabold/nexa_bold-webfont.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;}
+
+@font-face {
+    font-family: 'Gravity';
+    src: url('../themes/synema-salem-mdb-loaded/assets/font/gravity/gravity-bold-webfont.woff2') format('woff2'),
+         url('../themes/synema-salem-mdb-loaded/assets/font/gravity/gravity-bold-webfont.woff') format('woff');
+    font-weight: 700;}
+
+@font-face {
+    font-family: 'Gravity';
+    src: url('../themes/synema-salem-mdb-loaded/assets/font/gravity/gravity-bolditalic-webfont.woff2') format('woff2'),
+         url('../themes/synema-salem-mdb-loaded/assets/font/gravity/gravity-bolditalic-webfont.woff') format('woff');
+    font-weight: 700;
+    font-style: italic;}
+
+@font-face {
+    font-family: 'Gravity';
+    src: url('../themes/synema-salem-mdb-loaded/assets/font/gravity/gravity-book-webfont.woff2') format('woff2'),
+         url('../themes/synema-salem-mdb-loaded/assets/font/gravity/gravity-book-webfont.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;}
+
+@font-face {
+    font-family: 'Gravity';
+    src: url('../themes/synema-salem-mdb-loaded/assets/font/gravity/gravity-bookitalic-webfont.woff2') format('woff2'),
+         url('../themes/synema-salem-mdb-loaded/assets/font/gravity/gravity-bookitalic-webfont.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;}
+
+@font-face {
+    font-family: 'Gravity';
+    src: url('../themes/synema-salem-mdb-loaded/assets/font/gravity/gravity-italic-webfont.woff2') format('woff2'),
+         url('../themes/synema-salem-mdb-loaded/assets/font/gravity/gravity-italic-webfont.woff') format('woff');
+    font-weight: 400;
+    font-style: italic;}
+
+@font-face {
+    font-family: 'Gravity';
+    src: url('../themes/synema-salem-mdb-loaded/assets/font/gravity/gravity-light-webfont.woff2') format('woff2'),
+         url('../themes/synema-salem-mdb-loaded/assets/font/gravity/gravity-light-webfont.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;}
+
+@font-face {
+    font-family: 'Gravity';
+    src: url('../themes/synema-salem-mdb-loaded/assets/font/gravity/gravity-lightitalic-webfont.woff2') format('woff2'),
+         url('../themes/synema-salem-mdb-loaded/assets/font/gravity/gravity-lightitalic-webfont.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;}
+
+@font-face {
+    font-family: 'Gravity';
+    src: url('../themes/synema-salem-mdb-loaded/assets/font/gravity/gravity-regular-webfont.woff2') format('woff2'),
+         url('../themes/synema-salem-mdb-loaded/assets/font/gravity/gravity-regular-webfont.woff') format('woff');
+    font-weight: 400;}
+
+@font-face {
+    font-family: 'Gravity';
+    src: url('../themes/synema-salem-mdb-loaded/assets/font/gravity/gravity-ultralight-webfont.woff2') format('woff2'),
+         url('../themes/synema-salem-mdb-loaded/assets/font/gravity/gravity-ultralight-webfont.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;}
+
+@font-face {
+    font-family: 'Gravity';
+    src: url('../themes/synema-salem-mdb-loaded/assets/font/gravity/gravity-ultralightitalic-webfont.woff2') format('woff2'),
+         url('../themes/synema-salem-mdb-loaded/assets/font/gravity/gravity-ultralightitalic-webfont.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;}
+
+body {
+  font-family: 'Gravity', sans-serif;
+  font-weight: 400;
+}
+
+.navbar,
+h1 {
+  font-family: 'Nexa Bold', sans-serif;
+}
+
+h1 {
+  letter-spacing: -.05em;
+  word-spacing: .2em;
+}
+
+.font-bold {
+  text-transform: uppercase;
+}
+
+/* Buttons */
+.btn-primary {
+  background-color: #da1f27 !important;
+  color: #fff !important; }
+  .btn-primary:hover {
+    background-color: #141414; }
+  .btn-primary:focus, .btn-primary:active, .btn-primary.active {
+    background-color: #141414; }
+  .btn-primary.dropdown-toggle {
+    background-color: #4285F4 !important; }
+    .btn-primary.dropdown-toggle:hover, .btn-primary.dropdown-toggle:focus {
+      background-color: #5a95f5 !important; }
+  .btn-primary:not([disabled]):not(.disabled):active, .btn-primary:not([disabled]):not(.disabled).active,
+  .show > .btn-primary.dropdown-toggle {
+    background-color: #0d5fe6 !important; }
+
+/* Full Width Hero Images */
+
+img.full-width {
+  width: auto;
+  height: 100vh;
+  top: 56;
+  left: 0;
+}
+
+@media (min-width: 619px) {
+  img.full-width {
+    margin-left: -512px;
+    top: 0;
+  }
+}
+@media (min-width: 1366px) {
+  img.full-width {
+    margin-left: 0px;
+  }
+}
+
+/* Navigation*/
+
+.navbar {
+    background-color: transparent;
+}
+
+.nav-blue {
+    background-color: #141414;
+}
+
+.scrolling-navbar {
+    -webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
+    -moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
+    transition: background .5s ease-in-out, padding .5s ease-in-out;
+}
+
+.navbar .btn-group .dropdown-menu a:hover {
+    color: #000 !important;
+}
+.navbar .btn-group .dropdown-menu a:active {
+    color: #fff !important;
+}
+.top-nav-collapse {
+    background-color: #141414;
+}
+
+.view {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+footer.page-footer {
+    background-color: #141414;
+    margin-top: -1px;
+}
+
+/*Call to action*/
+.flex-center {
+    color: #fff;
+}
+@media only screen and (max-width: 768px) {
+    .navbar {
+        background-color: #141414;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+    .display-3 {
+        font-size: 3rem;
+        margin-top: 4rem;
+    }
+    h3 {
+        font-size: 1.3rem;
+    }
+}
+
+/* Section Headings */
+.section-heading {
+margin-top: 45px;
+margin-bottom: 45px;
+}
+
+.section-heading h1 {
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 500;
+	font-size: 400%;
+	letter-spacing: -5px;
+	word-spacing: 10px;
+}
+
+.section-heading h1 span {
+		display: inline-block;
+		content: '';
+		border-top: 1px solid black;
+		border-bottom: 1px solid black;
+		padding-top: 1rem;
+}

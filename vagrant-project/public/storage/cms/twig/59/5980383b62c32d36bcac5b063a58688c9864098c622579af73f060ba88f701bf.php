@@ -20,7 +20,7 @@ class __TwigTemplate_a5c84f5509e77116ff27aa9e54ecb19a6ae8fa26662997ba5d09faffff4
 <nav class=\"navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar\">
 
     <!-- Navbar brand -->
-    <a class=\"navbar-brand\" href=\"#\">Navbar</a>
+    <a class=\"navbar-brand\" href=\"#\"><img class=\"logo\" src=\"/storage/app/media/nav-logo-synema.png\"/></a>
 
     <!-- Collapse button -->
     <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\"
@@ -155,7 +155,7 @@ class __TwigTemplate_a5c84f5509e77116ff27aa9e54ecb19a6ae8fa26662997ba5d09faffff4
 <nav class=\"navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar\">
 
     <!-- Navbar brand -->
-    <a class=\"navbar-brand\" href=\"#\">Navbar</a>
+    <a class=\"navbar-brand\" href=\"#\"><img class=\"logo\" src=\"/storage/app/media/nav-logo-synema.png\"/></a>
 
     <!-- Collapse button -->
     <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\"

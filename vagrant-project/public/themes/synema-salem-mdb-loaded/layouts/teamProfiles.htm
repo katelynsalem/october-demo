@@ -1,42 +1,62 @@
 description = "Team Profiles"
 
 [staticPage]
-useContent = 0
+useContent = 1
 default = 0
 ==
+<?php
+function onStart()
+{
+    $this->addCss('assets/css/fullImageBg.css');
+}
+?>
+==
 {% partial 'site/head' %}
-{% partial 'site/nav' %}
+{% partial 'site/scrollingNavbar' %}
 
-{variable name="featuredTitle" label="Title" tab="Featured Image" type="text"}{/variable}
-{variable name="featuredText" label="Intro Text" tab="Featured Image" type="text"}{/variable}
-{variable name="useBtn" label="Use Button" tab="Featured Image" type="switch"}{/variable}
-{variable name="btnText" label="Button Text" tab="Featured Image" type="text"}{/variable}
-{variable name="btnLink" label="Button Link" tab="Featured Image" type="text"}{/variable}
-{variable name="featuredImage" label="Featured Image" tab="Featured Image" type="mediafinder" mode="image"}{/variable}
-<div class="container my-3">
-    <div class="row">
-        <div class="col-12">
-            <h2 class="h2-responsive text-center">{{ this.page.title }}</h2>
-            <hr>
-        </div>
-    </div>
+{variable name="introTitle" label="Intro Title (no accent)" tab="Intro" type="text"}{/variable}
+{variable name="introTitleAccent" label="Intro Title (accent)" tab="Intro" type="text"}{/variable}
+{variable name="introTitle2" label="Intro Title 2 (no accent)" tab="Intro" type="text"}{/variable}
+{variable name="tagline" label="Tagline" tab="Intro" type="text"}{/variable}
+{variable name="btn1Text" label="Button 1 Text" tab="Intro" type="text"}{/variable}
+{variable name="btn1Link" label="Button 1 Link" tab="Intro" type="text"}{/variable}
+{variable name="btn2Text" label="Button 2 Text" tab="Intro" type="text"}{/variable}
+{variable name="btn2Link" label="Button 2 Link" tab="Intro" type="text"}{/variable}
+{variable name="altText" label="Image Alternate Text" tab="Intro" type="text"}{/variable}
+{variable name="bgImageXLarge" label="Background Image XLarge (2880px width)" tab="Intro" type="mediafinder" mode="image"}{/variable}
+{variable name="bgImageLarge" label="Background Image Large (1600px wide)" tab="Intro" type="mediafinder" mode="image"}{/variable}
+{variable name="bgImageXSmall" label="Background Image XSmall/Mobile (750px x 1313px)" tab="Intro" type="mediafinder" mode="image"}{/variable}
 
-    <div class="row mb-5 wow fadeIn" data-wow-delay="0.4s">
-        <div class="col-md-12">
-            <div class="card card-image"
-                 style="background-image: url({% if featuredImage %}{{ featuredImage|media }}{% else %}'https://mdbootstrap.com/img/Photos/Others/gradient1.jpg'{% endif %});">
-                <div class="text-white text-center d-flex align-items-center py-5 px-4 my-5">
-                    <div>
-                        <h1 class="card-title pt-2 mb-4 font-bold"><strong>{{ featuredTitle }}</strong></h1>
-                        <p class="mx-5 mb-5">{{ featuredText }}</p>
-                        {% if useBtn %}
-                            <a href="{{ btnLink }}" class="btn btn-outline-white btn-rounded"><i class="fa fa-clone left"></i> {{ btnText }}</a>
-                        {% endif %}
-                    </div>
-                </div>
-            </div>
-        </div>
+
+<!--Mask-->
+<div class="view hm-black-light">
+  <img src="{{ bgImageLarge|media }}"
+    srcset="
+      {{ bgImageXSmall|media }} 750w,
+      {{ bgImageXLarge|media }} 2880w"
+    sizes="100vw"
+    alt="{{ altText }}"
+    class="full-width" >
+
+    <div id="synemaAccent" class="full-bg-img flex-center">
+        <ul class="animated fadeInUp">
+            <li>
+                <h1 class="display-3 mb-4 font-bold underlined">{{ introTitle }}<span style="color: #da1f27"> {{ introTitleAccent }} </span>{{ introTitle2 }}</h1></li>
+            <li>
+                <h3 class="mb-5">{{ tagline }}</h3>
+            </li>
+            <li>
+                {% if fields.btn1Text != '' %}<a target="_blank" href="{{ btn1Link }}" class="btn btn-primary btn-lg" rel="nofollow">{{ btn1Text }}</a>{% endif%}
+                {% if fields.btn2Text != '' %}<a target="_blank" href="{{ btn2Link }}" class="btn btn-outline-white btn-lg" rel="nofollow">{{ btn2Text }}</a>{% endif%}
+            </li>
+        </ul>
     </div>
+</div>
+<!--/.Mask-->
+
+<!-- Content -->
+<div>
+  {% page %}
 </div>
 
 <div class="container">
@@ -44,18 +64,26 @@ default = 0
         {repeater name="Profiles" tab="Profiles" prompt="Add another item"}
         {variable name="profileName" label="Name" type="text"}{/variable}
         {variable name="profileTitle" label="Title" type="text"}{/variable}
-        {variable name="profileBio" label="Bio" type="richeditor"}{/variable}
         {variable name="profileImage" label="Profile Image" type="mediafinder" mode="image"}{/variable}
+        {variable name="profileBio" label="Bio" type="richeditor"}{/variable}
+        {variable name="profileEducation" label="Education" type="richeditor"}{/variable}
+        {variable name="profileSkills1" label="Skills 1" type="text"}{/variable}
+        {variable name="profileSkills1Level" label="Skills 1 Level" type="text"}{/variable}
+        {variable name="profileSkills2" label="Skills 2" type="text"}{/variable}
+        {variable name="profileSkills2Level" label="Skills 2 Level" type="text"}{/variable}
+        {variable name="profileSkills3" label="Skills 3" type="text"}{/variable}
+        {variable name="profileSkills3Level" label="Skills 3 Level" type="text"}{/variable}
+        {variable name="profileSkills4" label="Skills 4" type="text"}{/variable}
+        {variable name="profileSkills4Level" label="Skills 4 Level" type="text"}{/variable}
+
         <div class="col-lg-3 col-md-6">
             <!--Card-->
             <div class="card mb-r light-grey">
                 <!--Card image-->
-                <div class="view">
                     <img src="{{ fields.profileImage|media }}" class="img-fluid mx-auto" alt="{{ fields.profileName }}">
                     <div class="mask waves-effect waves-light"></div>
-                </div>
                 <!--Card content-->
-                <div class="p-3">
+                <div class="p-3" style="min-height: 7rem;">
                     <!--Title-->
                     <h5 class="card-title">{{ fields.profileName }}</h5>
                     <!--Text-->
@@ -83,19 +111,99 @@ default = 0
                     <div class="modal-header">
                         <h4 class="modal-title w-100" id="myModalLabel">
                             {{ fields.profileName }}
-                            {% if fields.profileTitle %}
-                                <small class="text-muted">- {{ fields.profileTitle }}</small>
+                            {% if fields.profileTitle %}<br>
+                                <small class="text-muted">{{ fields.profileTitle }}</small>
                             {% endif %}
                         </h4>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                         </button>
                     </div>
-                    <!--Body-->
-                    <div class="modal-body">
+
+                    <!--Body for small screens including tabs-->
+                    <!-- Nav tabs -->
+                    <div class="modal-body small-screen">
+                      <img src="{{ fields.profileImage|media }}" class="img-thumbnail mx-auto d-block" alt="{{ fields.profileName }}">
+                      <ul id="teamNav" class="nav nav-tabs nav-justified">
+                        <li class="nav-item waves-effect waves-light">
+                          <a class="nav-link active" data-toggle="tab" href="#panel1" role="tab">Bio</a>
+                        </li>
+                        <li class="nav-item waves-effect waves-light">
+                          <a class="nav-link" data-toggle="tab" href="#panel2" role="tab">Education</a>
+                        </li>
+                        <li class="nav-item waves-effect waves-light">
+                          <a class="nav-link" data-toggle="tab" href="#panel3" role="tab">Skills</a>
+                        </li>
+                      </ul>
+                      <!-- Tab panels -->
+                      <div class="tab-content card">
+                        <!--Panel 1-->
+                        <div class="tab-pane fade in show active" id="panel1" role="tabpanel">
+                          <br>
+                          <p>{{ fields.profileBio|raw }}</p>
+                        </div>
+                        <!--/.Panel 1-->
+                        <!--Panel 2-->
+                        <div class="tab-pane fade" id="panel2" role="tabpanel">
+                          <br>
+                          <p>{{ fields.profileEducation|raw }}</p>
+                        </div>
+                        <!--/.Panel 2-->
+                        <!--Panel 3-->
+                        <div class="tab-pane fade" id="panel3" role="tabpanel">
+                          <br>
+                          <p></p>
+                          {{ fields.profileSkills1 }}
+                          <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: {{ fields.profileSkills1Level }}%" aria-valuenow="{{ fields.profileSkills1Level }}" aria-valuemin="0" aria-valuemax="100">{{ fields.profileSkills1Level }}%</div>
+                          </div>
+                          {{ fields.profileSkills2 }}
+                          <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: {{ fields.profileSkills2Level }}%" aria-valuenow="{{ fields.profileSkills2Level }}" aria-valuemin="0" aria-valuemax="100">{{ fields.profileSkills2Level }}%</div>
+                          </div>
+                          {{ fields.profileSkills3 }}
+                          <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: {{ fields.profileSkills3Level }}%" aria-valuenow="{{ fields.profileSkills3Level }}" aria-valuemin="0" aria-valuemax="100">{{ fields.profileSkills3Level }}%</div>
+                          </div>
+                          {{ fields.profileSkills4 }}
+                          <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: {{ fields.profileSkills4Level }}%" aria-valuenow="{{ fields.profileSkills4Level }}" aria-valuemin="0" aria-valuemax="100">{{ fields.profileSkills4Level }}%</div>
+                          </div>
+                        </div>
+                        <!--/.Panel 3-->
+                        </div>
+                    </div>
+
+                    <!--Body for large screens-->
+                    <div class="modal-body large-screen">
                         <img src="{{ fields.profileImage|media }}" class="img-thumbnail mx-auto d-block" alt="{{ fields.profileName }}">
                         <br>
+                        <h3 class="underlined">Bio</h3>
                         {{ fields.profileBio|raw }}
+                        <br>
+                        {% if fields.profileEducation %}
+                          <h3 class="underlined">Education</h3>
+                          {{ fields.profileEducation|raw }}
+                        {% endif %}
+                        <br>
+                        <h3 class="underlined">Skills</h3>
+                        <br>
+                        {{ fields.profileSkills1 }}
+                        <div class="progress">
+                          <div class="progress-bar" role="progressbar" style="width: {{ fields.profileSkills1Level }}%" aria-valuenow="{{ fields.profileSkills1Level }}" aria-valuemin="0" aria-valuemax="100">{{ fields.profileSkills1Level }}%</div>
+                        </div>
+                        {{ fields.profileSkills2 }}
+                        <div class="progress">
+                          <div class="progress-bar" role="progressbar" style="width: {{ fields.profileSkills2Level }}%" aria-valuenow="{{ fields.profileSkills2Level }}" aria-valuemin="0" aria-valuemax="100">{{ fields.profileSkills2Level }}%</div>
+                        </div>
+                        {{ fields.profileSkills3 }}
+                        <div class="progress">
+                          <div class="progress-bar" role="progressbar" style="width: {{ fields.profileSkills3Level }}%" aria-valuenow="{{ fields.profileSkills3Level }}" aria-valuemin="0" aria-valuemax="100">{{ fields.profileSkills3Level }}%</div>
+                        </div>
+                        {{ fields.profileSkills4 }}
+                        <div class="progress">
+                          <div class="progress-bar" role="progressbar" style="width: {{ fields.profileSkills4Level }}%" aria-valuenow="{{ fields.profileSkills4Level }}" aria-valuemin="0" aria-valuemax="100">{{ fields.profileSkills4Level }}%</div>
+                        </div>
                     </div>
                     <!--Footer-->
                     <div class="modal-footer">

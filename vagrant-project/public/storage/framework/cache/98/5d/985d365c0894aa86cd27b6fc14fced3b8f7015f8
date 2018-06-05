@@ -1,0 +1,51 @@
+1528238553a:1:{s:9:"about.htm";a:7:{s:8:"fileName";s:9:"about.htm";s:7:"content";s:904:"[viewBag]
+title = "About Us"
+url = "/about"
+layout = "fullImageBg"
+is_hidden = 0
+navigation_hidden = 0
+==
+<div class="section-heading">
+
+	<h1><span>Who We Are</span></h1>
+</div>
+<div class="section-content">
+
+	<p>Synema Studios was built on the idea that great content delivers cinematic, memorable, and engaging experiences that challenge viewers to think differently about themselves and the world around them.
+		<br>
+		<br>Staffed by veterans of the online video, television, and traditional film industries, with decades of experience (plus a few Webby and Emmy awards) to stand on, we have collectively driven over half a billion video views on YouTube.
+		<br>
+		<br>We’re hard at work, creating online video that viewers love, and we’re excited to find ways that our business values line up with yours, so we can connect your brand with our audiences.
+		<br>
+		<br>
+	</p>
+</div>
+";s:5:"mtime";i:1527205968;s:6:"markup";s:796:"<div class="section-heading">
+
+	<h1><span>Who We Are</span></h1>
+</div>
+<div class="section-content">
+
+	<p>Synema Studios was built on the idea that great content delivers cinematic, memorable, and engaging experiences that challenge viewers to think differently about themselves and the world around them.
+		<br>
+		<br>Staffed by veterans of the online video, television, and traditional film industries, with decades of experience (plus a few Webby and Emmy awards) to stand on, we have collectively driven over half a billion video views on YouTube.
+		<br>
+		<br>We’re hard at work, creating online video that viewers love, and we’re excited to find ways that our business values line up with yours, so we can connect your brand with our audiences.
+		<br>
+		<br>
+	</p>
+</div>";s:4:"code";N;s:7:"viewBag";a:5:{s:5:"title";s:8:"About Us";s:3:"url";s:6:"/about";s:6:"layout";s:11:"fullImageBg";s:9:"is_hidden";s:1:"0";s:17:"navigation_hidden";s:1:"0";}s:12:"parsedMarkup";s:796:"<div class="section-heading">
+
+	<h1><span>Who We Are</span></h1>
+</div>
+<div class="section-content">
+
+	<p>Synema Studios was built on the idea that great content delivers cinematic, memorable, and engaging experiences that challenge viewers to think differently about themselves and the world around them.
+		<br>
+		<br>Staffed by veterans of the online video, television, and traditional film industries, with decades of experience (plus a few Webby and Emmy awards) to stand on, we have collectively driven over half a billion video views on YouTube.
+		<br>
+		<br>We’re hard at work, creating online video that viewers love, and we’re excited to find ways that our business values line up with yours, so we can connect your brand with our audiences.
+		<br>
+		<br>
+	</p>
+</div>";}}

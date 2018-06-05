@@ -1,0 +1,93 @@
+/* Your custom styles */
+/* Theme colors */
+.synema-red {
+  background-color: #da1f27 !important; }
+.synema-black {
+  background-color: #141414 !important; }
+.synema-white {
+  background-color: #f7f7f7 !important; }
+/* Fonts */
+
+.font-bold {
+  text-transform: uppercase;
+}
+
+/* Full Width Hero Images */
+
+img.full-width {
+  width: auto;
+  height: 100vh;
+  top: 56;
+  left: 0;
+}
+
+@media (min-width: 619px) {
+  img.full-width {
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+}
+
+
+/* Navigation*/
+
+.navbar {
+    background-color: transparent;
+}
+
+.nav-blue {
+    background-color: #141414;
+}
+
+.scrolling-navbar {
+    -webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
+    -moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
+    transition: background .5s ease-in-out, padding .5s ease-in-out;
+}
+
+.navbar .btn-group .dropdown-menu a:hover {
+    color: #000 !important;
+}
+.navbar .btn-group .dropdown-menu a:active {
+    color: #fff !important;
+}
+.top-nav-collapse {
+    background-color: #141414;
+}
+
+.view {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+footer.page-footer {
+    background-color: #141414;
+    margin-top: -1px;
+}
+
+/*Call to action*/
+.flex-center {
+    color: #fff;
+}
+@media only screen and (max-width: 768px) {
+    .navbar {
+        background-color: #141414;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+    .display-3 {
+        font-size: 3rem;
+        margin-top: 4rem;
+    }
+    h3 {
+        font-size: 1.3rem;
+    }
+}

@@ -1,0 +1,16 @@
+1527612495a:1:{s:14:"testlayout.htm";a:6:{s:8:"fileName";s:14:"testlayout.htm";s:7:"content";s:134:"==
+<html>
+    <head>
+        <title>{{ this.page.title }}</title>
+    </head>
+    <body>
+        {% page %}
+    </body>
+</html>";s:5:"mtime";i:1527190733;s:6:"markup";s:131:"<html>
+    <head>
+        <title>{{ this.page.title }}</title>
+    </head>
+    <body>
+        {% page %}
+    </body>
+</html>";s:4:"code";N;s:17:"_PARSER_ERROR_INI";s:0:"";}}
