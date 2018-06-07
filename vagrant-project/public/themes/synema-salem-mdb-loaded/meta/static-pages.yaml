@@ -16,3 +16,4 @@ static-pages:
         subpages-child-three: {  }
     test2: {  }
     team: {  }
+    contact: {  }

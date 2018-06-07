@@ -107,7 +107,7 @@ class __TwigTemplate_35cca78c3cb7d63c970df0588475066dc31f17ecbcb93306d9c3e0eb88c
 <!--/.Mask-->
 
 <!-- Content -->
-<div>
+<div class=\"container\">
   ";
         // line 48
         echo $this->env->getExtension('Cms\Twig\Extension')->pageFunction();
@@ -186,7 +186,7 @@ class __TwigTemplate_35cca78c3cb7d63c970df0588475066dc31f17ecbcb93306d9c3e0eb88c
 <!--/.Mask-->
 
 <!-- Content -->
-<div>
+<div class=\"container\">
   {% page %}
 </div>
 

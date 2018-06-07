@@ -1,4 +1,4 @@
-1528151589a:1:{s:15:"fullImageBg.htm";a:7:{s:8:"fileName";s:15:"fullImageBg.htm";s:7:"content";s:2937:"description = "Full Image Background"
+1528320520a:1:{s:15:"fullImageBg.htm";a:7:{s:8:"fileName";s:15:"fullImageBg.htm";s:7:"content";s:2955:"description = "Full Image Background"
 
 [staticPage]
 useContent = 1
@@ -57,14 +57,14 @@ function onStart()
 <!--/.Mask-->
 
 <!-- Content -->
-<div>
+<div class="container">
   {% page %}
 </div>
 
 
 
 {% partial 'site/footer' %}
-";s:5:"mtime";i:1527207186;s:6:"markup";s:2766:"{% partial 'site/head' %}
+";s:5:"mtime";i:1528311830;s:6:"markup";s:2784:"{% partial 'site/head' %}
 {% partial 'site/scrollingNavbar' %}
 
 {variable name="introTitle" label="Intro Title (no accent)" tab="Intro" type="text"}{/variable}
@@ -110,7 +110,7 @@ function onStart()
 <!--/.Mask-->
 
 <!-- Content -->
-<div>
+<div class="container">
   {% page %}
 </div>
 

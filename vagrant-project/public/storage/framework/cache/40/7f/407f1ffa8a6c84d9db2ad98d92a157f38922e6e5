@@ -1,0 +1,94 @@
+1528320532a:1:{s:17:"halfpageImage.htm";a:7:{s:8:"fileName";s:17:"halfpageImage.htm";s:7:"content";s:2140:"description = "Half Image Background"
+
+[staticPage]
+useContent = 1
+default = 0
+==
+{% partial 'site/head' %}
+{% partial 'site/scrollingNavbar' %}
+
+{variable name="introTitle" label="Intro Title (no accent)" tab="Intro" type="text"}{/variable}
+{variable name="introTitleAccent" label="Intro Title (accent)" tab="Intro" type="text"}{/variable}
+{variable name="introTitle2" label="Intro Title 2 (no accent)" tab="Intro" type="text"}{/variable}
+{variable name="tagline" label="Tagline" tab="Intro" type="text"}{/variable}
+{variable name="btn1Text" label="Button 1 Text" tab="Intro" type="text"}{/variable}
+{variable name="btn1Link" label="Button 1 Link" tab="Intro" type="text"}{/variable}
+{variable name="btn2Text" label="Button 2 Text" tab="Intro" type="text"}{/variable}
+{variable name="btn2Link" label="Button 2 Link" tab="Intro" type="text"}{/variable}
+{variable name="altText" label="Image Alternate Text" tab="Intro" type="text"}{/variable}
+{variable name="bgImageXSmall" label="Background Image XSmall/Mobile" tab="Intro" type="mediafinder" mode="image"}{/variable}
+
+<!--Mask-->
+<div class="view hm-black-light half-page">
+  <img src="{{ bgImageXSmall|media }}"
+    alt="{{ altText }}"
+    style="height: 100%; margin: auto;" >
+
+    <div id="synemaAccent" class="full-bg-img flex-center">
+        <ul class="animated fadeInUp">
+            <li>
+                <h1 class="display-3 mb-4 font-bold">{{ introTitle }}<span style="color: #da1f27"> {{ introTitleAccent }} </span>{{ introTitle2 }}</h1></li>
+            <li>
+                <h3 class="mb-5">{{ tagline }}</h3>
+            </li>
+            <li>
+                {% if fields.btn1Text != '' %}<a target="_blank" href="{{ btn1Link }}" class="btn btn-primary btn-lg" rel="nofollow">{{ btn1Text }}</a>{% endif%}
+                {% if fields.btn2Text != '' %}<a target="_blank" href="{{ btn2Link }}" class="btn btn-outline-white btn-lg" rel="nofollow">{{ btn2Text }}</a>{% endif%}
+            </li>
+        </ul>
+    </div>
+</div>
+<!--/.Mask-->
+
+<!-- Content -->
+<div class="container">
+  {% page %}
+</div>
+
+
+
+{% partial 'site/footer' %}
+";s:5:"mtime";i:1528312256;s:6:"markup";s:2056:"{% partial 'site/head' %}
+{% partial 'site/scrollingNavbar' %}
+
+{variable name="introTitle" label="Intro Title (no accent)" tab="Intro" type="text"}{/variable}
+{variable name="introTitleAccent" label="Intro Title (accent)" tab="Intro" type="text"}{/variable}
+{variable name="introTitle2" label="Intro Title 2 (no accent)" tab="Intro" type="text"}{/variable}
+{variable name="tagline" label="Tagline" tab="Intro" type="text"}{/variable}
+{variable name="btn1Text" label="Button 1 Text" tab="Intro" type="text"}{/variable}
+{variable name="btn1Link" label="Button 1 Link" tab="Intro" type="text"}{/variable}
+{variable name="btn2Text" label="Button 2 Text" tab="Intro" type="text"}{/variable}
+{variable name="btn2Link" label="Button 2 Link" tab="Intro" type="text"}{/variable}
+{variable name="altText" label="Image Alternate Text" tab="Intro" type="text"}{/variable}
+{variable name="bgImageXSmall" label="Background Image XSmall/Mobile" tab="Intro" type="mediafinder" mode="image"}{/variable}
+
+<!--Mask-->
+<div class="view hm-black-light half-page">
+  <img src="{{ bgImageXSmall|media }}"
+    alt="{{ altText }}"
+    style="height: 100%; margin: auto;" >
+
+    <div id="synemaAccent" class="full-bg-img flex-center">
+        <ul class="animated fadeInUp">
+            <li>
+                <h1 class="display-3 mb-4 font-bold">{{ introTitle }}<span style="color: #da1f27"> {{ introTitleAccent }} </span>{{ introTitle2 }}</h1></li>
+            <li>
+                <h3 class="mb-5">{{ tagline }}</h3>
+            </li>
+            <li>
+                {% if fields.btn1Text != '' %}<a target="_blank" href="{{ btn1Link }}" class="btn btn-primary btn-lg" rel="nofollow">{{ btn1Text }}</a>{% endif%}
+                {% if fields.btn2Text != '' %}<a target="_blank" href="{{ btn2Link }}" class="btn btn-outline-white btn-lg" rel="nofollow">{{ btn2Text }}</a>{% endif%}
+            </li>
+        </ul>
+    </div>
+</div>
+<!--/.Mask-->
+
+<!-- Content -->
+<div class="container">
+  {% page %}
+</div>
+
+
+
+{% partial 'site/footer' %}";s:4:"code";N;s:11:"description";s:21:"Half Image Background";s:10:"staticPage";a:2:{s:10:"useContent";s:1:"1";s:7:"default";s:1:"0";}}}
