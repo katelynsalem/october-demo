@@ -1423,7 +1423,7 @@
     box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
 
 a {
-  color: #0275d8;
+  color: #da1f27;
   text-decoration: none;
   cursor: pointer;
   -webkit-tap-highlight-color: transparent; }
@@ -7649,8 +7649,8 @@ textarea.md-textarea {
   input[type=search-md]:focus:not([readonly]),
   input[type=search]:focus:not([readonly]),
   textarea.md-textarea:focus:not([readonly]) {
-    border-bottom: 1px solid #4285F4;
-    box-shadow: 0 1px 0 0 #4285F4; }
+    border-bottom: 1px solid #da1f27;
+    box-shadow: 0 1px 0 0 #da1f27; }
     input[type=text]:focus:not([readonly]) + label,
     input[type=password]:focus:not([readonly]) + label,
     input[type=email]:focus:not([readonly]) + label,
@@ -7663,7 +7663,7 @@ textarea.md-textarea {
     input[type=search-md]:focus:not([readonly]) + label,
     input[type=search]:focus:not([readonly]) + label,
     textarea.md-textarea:focus:not([readonly]) + label {
-      color: #4285F4; }
+      color: #da1f27; }
   input[type=text].valid, input[type=text]:focus.valid,
   input[type=password].valid,
   input[type=password]:focus.valid,
@@ -7872,25 +7872,12 @@ textarea.md-textarea {
     width: 1.5rem;
     font-size: 1.5rem;
     padding-top: 1rem; }
-    .md-form .prefix ~ input, .md-form .prefix ~ textarea {
-      margin-left: 2.5rem;
-      width: 92%;
-      width: -webkit-calc(100% - 3rem);
-      width: calc(100% - 3rem); }
+
     .md-form .prefix ~ label {
       margin-left: 2.8rem; }
     .md-form .prefix.active {
-      color: #4285F4; }
-  @media only screen and (max-width: 992px) {
-    .md-form .prefix ~ input {
-      width: 86%;
-      width: -webkit-calc(100% - 3rem);
-      width: calc(100% - 3rem); } }
-  @media only screen and (max-width: 600px) {
-    .md-form .prefix ~ input {
-      width: 80%;
-      width: -webkit-calc(100% - 3rem);
-      width: calc(100% - 3rem); } }
+      color: #da1f27; }
+
   .md-form .btn {
     margin-bottom: 1.5rem; }
   .md-form.form-sm input {

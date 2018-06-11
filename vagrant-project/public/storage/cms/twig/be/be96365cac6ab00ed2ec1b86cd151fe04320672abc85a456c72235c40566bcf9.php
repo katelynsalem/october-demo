@@ -39,7 +39,7 @@ class __TwigTemplate_14f81009c9e75d369c36cdca53c819c398ac0defc25691a08a0d1818660
     <div class=\"carousel-inner\" role=\"listbox\">
 
         <!-- First slide -->
-        <div class=\"carousel-item active view hm-black-light\" style=\"background-image: url('https://mdbootstrap.com/img/Photos/Others/images/47.jpg'); background-repeat: no-repeat; background-size: cover;\">
+        <div class=\"carousel-item active hm-black-light\" style=\"background-image: url('https://mdbootstrap.com/img/Photos/Others/images/47.jpg'); background-repeat: no-repeat; background-size: cover;\">
             <!-- Caption -->
             <div class=\"full-bg-img flex-center white-text\">
                 <ul class=\"animated fadeIn col-md-12\">
@@ -60,7 +60,7 @@ class __TwigTemplate_14f81009c9e75d369c36cdca53c819c398ac0defc25691a08a0d1818660
         <!--/.First slide-->
 
         <!-- Second slide -->
-        <div class=\"carousel-item view hm-black-light\" style=\"background-image: url('https://mdbootstrap.com/img/Photos/Others/images/77.jpg'); background-repeat: no-repeat; background-size: cover;\">
+        <div class=\"carousel-item hm-black-light\" style=\"background-image: url('https://mdbootstrap.com/img/Photos/Others/images/77.jpg'); background-repeat: no-repeat; background-size: cover;\">
 
             <!-- Caption -->
             <div class=\"full-bg-img flex-center white-text\">
@@ -82,7 +82,7 @@ class __TwigTemplate_14f81009c9e75d369c36cdca53c819c398ac0defc25691a08a0d1818660
         <!--/.Second slide -->
 
         <!-- Third slide -->
-        <div class=\"carousel-item view hm-black-slight\" style=\"background-image: url('https://mdbootstrap.com/img/Photos/Others/nature7.jpg'); background-repeat: no-repeat; background-size: cover;\">
+        <div class=\"carousel-item hm-black-slight\" style=\"background-image: url('https://mdbootstrap.com/img/Photos/Others/nature7.jpg'); background-repeat: no-repeat; background-size: cover;\">
 
             <!-- Caption -->
             <div class=\"full-bg-img flex-center white-text\">
@@ -287,7 +287,7 @@ class __TwigTemplate_14f81009c9e75d369c36cdca53c819c398ac0defc25691a08a0d1818660
     <div class=\"carousel-inner\" role=\"listbox\">
 
         <!-- First slide -->
-        <div class=\"carousel-item active view hm-black-light\" style=\"background-image: url('https://mdbootstrap.com/img/Photos/Others/images/47.jpg'); background-repeat: no-repeat; background-size: cover;\">
+        <div class=\"carousel-item active hm-black-light\" style=\"background-image: url('https://mdbootstrap.com/img/Photos/Others/images/47.jpg'); background-repeat: no-repeat; background-size: cover;\">
             <!-- Caption -->
             <div class=\"full-bg-img flex-center white-text\">
                 <ul class=\"animated fadeIn col-md-12\">
@@ -308,7 +308,7 @@ class __TwigTemplate_14f81009c9e75d369c36cdca53c819c398ac0defc25691a08a0d1818660
         <!--/.First slide-->
 
         <!-- Second slide -->
-        <div class=\"carousel-item view hm-black-light\" style=\"background-image: url('https://mdbootstrap.com/img/Photos/Others/images/77.jpg'); background-repeat: no-repeat; background-size: cover;\">
+        <div class=\"carousel-item hm-black-light\" style=\"background-image: url('https://mdbootstrap.com/img/Photos/Others/images/77.jpg'); background-repeat: no-repeat; background-size: cover;\">
 
             <!-- Caption -->
             <div class=\"full-bg-img flex-center white-text\">
@@ -330,7 +330,7 @@ class __TwigTemplate_14f81009c9e75d369c36cdca53c819c398ac0defc25691a08a0d1818660
         <!--/.Second slide -->
 
         <!-- Third slide -->
-        <div class=\"carousel-item view hm-black-slight\" style=\"background-image: url('https://mdbootstrap.com/img/Photos/Others/nature7.jpg'); background-repeat: no-repeat; background-size: cover;\">
+        <div class=\"carousel-item hm-black-slight\" style=\"background-image: url('https://mdbootstrap.com/img/Photos/Others/nature7.jpg'); background-repeat: no-repeat; background-size: cover;\">
 
             <!-- Caption -->
             <div class=\"full-bg-img flex-center white-text\">
