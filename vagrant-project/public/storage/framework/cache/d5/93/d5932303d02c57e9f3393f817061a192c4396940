@@ -1,4 +1,4 @@
-1528755871a:1:{s:18:"video-services.htm";a:7:{s:8:"fileName";s:18:"video-services.htm";s:7:"content";s:8138:"[viewBag]
+1528939571a:1:{s:18:"video-services.htm";a:7:{s:8:"fileName";s:18:"video-services.htm";s:7:"content";s:11439:"[viewBag]
 title = "Video Services"
 url = "/video-services"
 layout = "noSidebar"
@@ -133,110 +133,153 @@ navigation_hidden = 0
 <div class="container">
 	<!-- Section: Main info -->
 	<section class="mt-5 wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
-		<!-- Grid row -->
 		<div class="row">
-			<!-- Column column -->
+
+			<!-- Column 1 -->
 			<div class="col-xl-5 mr-auto mb-r col-lg-6 wow fadeIn" data-wow-delay="0.4s">
 				<!-- Image -->
-				<img src="https://mdbootstrap.com/img/Photos/Others/images/53.jpg" class="img-fluid rounded z-depth-1-half fr-fic fr-dii" alt="My photo"></div>
-			<!-- Column column -->
-			<!-- Grid column column -->
+				<img src="/storage/app/media/Services/cinematographer.jpg" class="img-fluid rounded z-depth-1-half fr-fic fr-dii" alt="Cinematographer in the snow">
+      </div>
+
+			<!-- Column 2 -->
 			<div class="col-xl-6 col-lg-6 wow fadeIn" data-wow-delay="0.4s">
 				<!-- Main Heading -->
-
-				<h3 class="h3 mb-3">Why Us</h3>
+				<h3 class="h3 mb-3 underlined" style="text-transform: uppercase;">Why Us</h3>
 				<!-- Description -->
-
-				<p>Synema Studios is staffed by veterans of the online video, television, and traditional film industries, with decades of experience to stand on. Regardless of project size, we take ideas from pre-production through post-production, keeping timelines and budgets tight, while never losing sight of the ultimate goal: creating an experience that matters.</p>
+				<p>Synema Studios is staffed by <strong>veterans of the online video, television, and traditional film industries,</strong> with decades of experience to stand on.</p>
+        <p>Regardless of project size, we take ideas from pre-production through post-production, keeping timelines and budgets tight, while never losing sight of the ultimate goal: <strong>creating an experience that matters.</strong></p>
 				<!-- Buttons -->
 				<a class="btn btn-grey waves-effect waves-light" href="#" target="_blank">See Our Work</a>
-				<a class="btn btn-grey waves-effect waves-light" href="#" target="_blank">See Our Work</a></div>
-			<!-- Grid column -->
+				<a class="btn btn-grey waves-effect waves-light" href="#" target="_blank">See Our Work</a>
+      </div>
+
 		</div>
-		<!-- Grid row -->
 	</section>
 	<!-- Section: Main info -->
+
 	<hr class="my-5">
+
 	<!-- Section: Main services -->
 	<section>
-
-		<h3 class="h3 text-center mb-5">What We Do</h3>
-		<!-- Grid row -->
+		<h2 class="h3 text-center mb-5">What We Do</h2>
+		<!-- Grid top row -->
 		<div class="row wow fadeIn" style="visibility:visible; animation-name: fadeIn;">
 			<!-- Grid column 1 -->
 			<div class="col-lg-6 col-md-12 px-4">
+
 				<!-- Column 1 Row 1 -->
 				<div class="row" style="margin-bottom: 2rem;">
-					<div class="col-1 mr-3"><i class="fa fa-code fa-2x synema-red">::before</i></div>
+					<div class="col-1 mr-3"><i class="fa fa-video-camera fa-2x synema-red"></i></div>
 					<div class="col-10">
-
 						<h5 class="feature-title">Cinematography</h5>
-
-						<p class="grey-text">Moving images have the power to speak directly to the heart. Whether you’re selling cars or craft beer, video will make your message feel real in ways that nothing else can.</p>
+						<p class="grey-text">Moving images have the power to speak directly to the heart.
+              Whether you’re selling cars or craft beer, video will make your message feel
+              real in ways that nothing else can.</p>
 					</div>
 				</div>
-			</div>
+
+        <!-- Column 1 Row 2 -->
+        <div class="row" style="margin-bottom: 2rem;">
+          <div class="col-1 mr-3"><i class="fa fa-film fa-2x synema-red"></i></div>
+          <div class="col-10">
+            <h5 class="feature-title">Video Editing</h5>
+            <p class="grey-text">Editing can make or break a video. It's the editing that tells
+              the viewer what is most important in a scene. Editing can be used to showcase the
+              truth or fabricate a lie. All this is why the quality editing of a video is so important.</p>
+              <p class="grey-text">At Synema, our editors are skilled in the style and pacing of online video and have years of experience.</p>
+          </div>
+        </div>
+
+        <!-- Column 1 Row 3 -->
+        <div class="row" style="margin-bottom: 2rem;">
+          <div class="col-1 mr-3"><i class="fa fa-pencil fa-2x synema-red"></i></div>
+          <div class="col-10">
+            <h5 class="feature-title">Animation & Motion Graphics</h5>
+            <p class="grey-text">Excellent graphic design captures (and holds) the attention of the viewer. By mastering shape, space,
+               color, and texture, we deliver clean, efficient designs that honor the importance of the message, while reflecting the
+                tone of the brand.</p>
+              <p class="grey-text">Rather than chasing fads, we develop with an eye for timelessness. Whether you need print ads or an
+                 entire branding package, we’ll build you a product that’ll stand the test of time.</p>
+          </div>
+        </div>
+
+			</div> <!--/.Grid Column 1 -->
+
+      <!-- Grid Column 2 -->
+      <div class="col-lg-6 col-md-12">
+        <!-- Column 2 Row 1 -->
+        <div class="row" style="margin-bottom: 2rem;">
+          <p class="h5 text-center mb-4">Claire Emery Original Woodblock Prints</p>
+          <div class="embed-responsive embed-responsive-16by9" style="margin-bottom: 2rem;">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/xMs18zMNElU?rel=0&modestbranding=1&autohide=1&showinfo=0" frameborder="0" allowfullscreen>
+            </iframe>
+          </div>
+        </div>
+
+        <!-- Column 2 Row 2 -->
+        <div class="row" style="margin-bottom: 2rem;">
+          <p class="h5 text-center mb-4">Vim & Vigr Compression Sleeves</p>
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/trBOuS9WdXs?rel=0&modestbranding=1&autohide=1&showinfo=0" frameborder="0" allowfullscreen>
+            </iframe>
+          </div>
+        </div>
+      </div> <!--/. Grid Column 2 -->
 		</div>
-	</section>
-	<div class="row my-5 py-4">
-		<!--First columnn-->
-		<div class="col-lg-4">
-			<!--Card-->
-			<div class="card wow fadeIn" data-wow-delay="0.2s">
-				<!--Card image-->
-				<img class="img-fluid fr-fic fr-dii" src="https://mdbootstrap.com/img/Photos/Others/images/49.jpg" alt="Card image cap">
-				<!--Card content-->
-				<div class="card-body">
-					<!--Title-->
+	</section><!--/. Main services 1 -->
 
-					<h4 class="card-title">Mesmerizing Landscapes</h4>
-					<!--Text-->
+  <!-- Main services 2 -->
+  <section>
+    <h2 class="my-5 h3 text-center">Unique Opportunities</h2>
 
-					<p class="card-text mb-4">Some quick example text to build on the card title and make up the bulk of the card's content.</p><a class="font-bold" href="#">Read more</a></div>
-			</div>
-			<!--/.Card-->
-		</div>
-		<!--First columnn-->
-		<!--Second columnn-->
-		<div class="col-lg-4">
-			<!--Card-->
-			<div class="card wow fadeIn" data-wow-delay="0.4s">
-				<!--Card image-->
-				<img class="img-fluid fr-fic fr-dii" src="https://mdbootstrap.com/img/Photos/Others/images/48.jpg" alt="Card image cap">
-				<!--Card content-->
-				<div class="card-body">
-					<!--Title-->
+    <!-- Row 1 -->
+    <div class="row features-small mt-5 wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
 
-					<h4 class="card-title">Top 5 holiday's places</h4>
-					<!--Text-->
+      <!-- Column 1 -->
+      <div class="col-xl-3 col-lg-6">
+        <!-- Column 1 Row 1 -->
+        <div class="row">
+          <div class="col-2">
+            <i class="fa fa-cloud fa-2x mb-1 synema-red" aria-hidden="true"></i>
+          </div>
+          <div class="col-10 mb-2 pl-3">
+            <h5 class="feature-title font-bold">Drone Services</h5>
+            <p class="grey-text">Cinematic footage from drones are all the rage. Footage from a drone instantly adds a level of quality
+               to a video, though not all the footage available is created equal. Our philosophy with our drones is to use them with purpose.</p>
+              <p class="grey-text">We are licensed with the FAA to legally fly drones and take the appropriate precautions to make all of our
+                 flights safe. We have a DJI Inspire 1 and a DJI Mavic Pro with 4k cameras, along with an experienced drone pilot to help
+                  you capture the shot you want.</p>
+          </div>
+        </div>
+      </div><!--/.Column 1 -->
 
-					<p class="card-text mb-4">Some quick example text to build on the card title and make up the bulk of the card's content.</p><a class="font-bold" href="#">Read more</a></div>
-			</div>
-			<!--/.Card-->
-		</div>
-		<!--Second columnn-->
-		<!--Third columnn-->
-		<div class="col-lg-4 mb-4">
-			<!--Card-->
-			<div class="card wow fadeIn" data-wow-delay="0.6s">
-				<!--Card image-->
-				<img class="img-fluid fr-fic fr-dii" src="https://mdbootstrap.com/img/Photos/Others/images/29.jpg" alt="Card image cap">
-				<!--Card content-->
-				<div class="card-body">
-					<!--Title-->
+      <!-- Column 2 -->
+      <div class="col-xl-3 col-lg-6">
+        <!-- Column 2 Row 1 -->
+        <div class="row">
+          <div class="col-2">
+            <i class="fa fa-calendar fa-2x mb-1 synema-red" aria-hidden="true"></i>
+          </div>
+          <div class="col-10 mb-2 pl-3">
+            <h5 class="feature-title font-bold">Equipment Rental</h5>
+            <p class="grey-text">We want to be able to spread creativity throughout our community and with a collection of high quality
+               video and photo equipment, we can lend a tool to someone who may not have the means of attaining just equipment otherwise.
+                If you are interested in leasing equipment for your own creative endeavors, we have the tools for you!</p>
+          </div>
+        </div>
+      </div><!--/.Column 2 -->
+    </div>
 
-					<h4 class="card-title">Mountain Rivers</h4>
-					<!--Text-->
-
-					<p class="card-text mb-4">Some quick example text to build on the card title and make up the bulk of the card's content.</p><a class="font-bold" href="#">Read more</a></div>
-			</div>
-			<!--/.Card-->
-		</div>
-		<!--Third columnn-->
-	</div>
-</div>
+    <!--Row 2 -->
+      <p class="h5 text-center mb-4">Drone Reel</p>
+      <div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/YtlSuOrEthg?rel=0&modestbranding=1&autohide=1&showinfo=0" frameborder="0"  allowfullscreen>
+        </iframe>
+      </div>
+      <!--/.Row 2 -->
+  </section><!--/.Main services 2 -->
 <!--/.Content-->
-";s:5:"mtime";i:1528755262;s:6:"markup";s:8017:"<style>
+";s:5:"mtime";i:1528836239;s:6:"markup";s:11318:"<style>
 /* Carousel*/
 .carousel {
     height: 50%;
@@ -364,109 +407,152 @@ navigation_hidden = 0
 <div class="container">
 	<!-- Section: Main info -->
 	<section class="mt-5 wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
-		<!-- Grid row -->
 		<div class="row">
-			<!-- Column column -->
+
+			<!-- Column 1 -->
 			<div class="col-xl-5 mr-auto mb-r col-lg-6 wow fadeIn" data-wow-delay="0.4s">
 				<!-- Image -->
-				<img src="https://mdbootstrap.com/img/Photos/Others/images/53.jpg" class="img-fluid rounded z-depth-1-half fr-fic fr-dii" alt="My photo"></div>
-			<!-- Column column -->
-			<!-- Grid column column -->
+				<img src="/storage/app/media/Services/cinematographer.jpg" class="img-fluid rounded z-depth-1-half fr-fic fr-dii" alt="Cinematographer in the snow">
+      </div>
+
+			<!-- Column 2 -->
 			<div class="col-xl-6 col-lg-6 wow fadeIn" data-wow-delay="0.4s">
 				<!-- Main Heading -->
-
-				<h3 class="h3 mb-3">Why Us</h3>
+				<h3 class="h3 mb-3 underlined" style="text-transform: uppercase;">Why Us</h3>
 				<!-- Description -->
-
-				<p>Synema Studios is staffed by veterans of the online video, television, and traditional film industries, with decades of experience to stand on. Regardless of project size, we take ideas from pre-production through post-production, keeping timelines and budgets tight, while never losing sight of the ultimate goal: creating an experience that matters.</p>
+				<p>Synema Studios is staffed by <strong>veterans of the online video, television, and traditional film industries,</strong> with decades of experience to stand on.</p>
+        <p>Regardless of project size, we take ideas from pre-production through post-production, keeping timelines and budgets tight, while never losing sight of the ultimate goal: <strong>creating an experience that matters.</strong></p>
 				<!-- Buttons -->
 				<a class="btn btn-grey waves-effect waves-light" href="#" target="_blank">See Our Work</a>
-				<a class="btn btn-grey waves-effect waves-light" href="#" target="_blank">See Our Work</a></div>
-			<!-- Grid column -->
+				<a class="btn btn-grey waves-effect waves-light" href="#" target="_blank">See Our Work</a>
+      </div>
+
 		</div>
-		<!-- Grid row -->
 	</section>
 	<!-- Section: Main info -->
+
 	<hr class="my-5">
+
 	<!-- Section: Main services -->
 	<section>
-
-		<h3 class="h3 text-center mb-5">What We Do</h3>
-		<!-- Grid row -->
+		<h2 class="h3 text-center mb-5">What We Do</h2>
+		<!-- Grid top row -->
 		<div class="row wow fadeIn" style="visibility:visible; animation-name: fadeIn;">
 			<!-- Grid column 1 -->
 			<div class="col-lg-6 col-md-12 px-4">
+
 				<!-- Column 1 Row 1 -->
 				<div class="row" style="margin-bottom: 2rem;">
-					<div class="col-1 mr-3"><i class="fa fa-code fa-2x synema-red">::before</i></div>
+					<div class="col-1 mr-3"><i class="fa fa-video-camera fa-2x synema-red"></i></div>
 					<div class="col-10">
-
 						<h5 class="feature-title">Cinematography</h5>
-
-						<p class="grey-text">Moving images have the power to speak directly to the heart. Whether you’re selling cars or craft beer, video will make your message feel real in ways that nothing else can.</p>
+						<p class="grey-text">Moving images have the power to speak directly to the heart.
+              Whether you’re selling cars or craft beer, video will make your message feel
+              real in ways that nothing else can.</p>
 					</div>
 				</div>
-			</div>
+
+        <!-- Column 1 Row 2 -->
+        <div class="row" style="margin-bottom: 2rem;">
+          <div class="col-1 mr-3"><i class="fa fa-film fa-2x synema-red"></i></div>
+          <div class="col-10">
+            <h5 class="feature-title">Video Editing</h5>
+            <p class="grey-text">Editing can make or break a video. It's the editing that tells
+              the viewer what is most important in a scene. Editing can be used to showcase the
+              truth or fabricate a lie. All this is why the quality editing of a video is so important.</p>
+              <p class="grey-text">At Synema, our editors are skilled in the style and pacing of online video and have years of experience.</p>
+          </div>
+        </div>
+
+        <!-- Column 1 Row 3 -->
+        <div class="row" style="margin-bottom: 2rem;">
+          <div class="col-1 mr-3"><i class="fa fa-pencil fa-2x synema-red"></i></div>
+          <div class="col-10">
+            <h5 class="feature-title">Animation & Motion Graphics</h5>
+            <p class="grey-text">Excellent graphic design captures (and holds) the attention of the viewer. By mastering shape, space,
+               color, and texture, we deliver clean, efficient designs that honor the importance of the message, while reflecting the
+                tone of the brand.</p>
+              <p class="grey-text">Rather than chasing fads, we develop with an eye for timelessness. Whether you need print ads or an
+                 entire branding package, we’ll build you a product that’ll stand the test of time.</p>
+          </div>
+        </div>
+
+			</div> <!--/.Grid Column 1 -->
+
+      <!-- Grid Column 2 -->
+      <div class="col-lg-6 col-md-12">
+        <!-- Column 2 Row 1 -->
+        <div class="row" style="margin-bottom: 2rem;">
+          <p class="h5 text-center mb-4">Claire Emery Original Woodblock Prints</p>
+          <div class="embed-responsive embed-responsive-16by9" style="margin-bottom: 2rem;">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/xMs18zMNElU?rel=0&modestbranding=1&autohide=1&showinfo=0" frameborder="0" allowfullscreen>
+            </iframe>
+          </div>
+        </div>
+
+        <!-- Column 2 Row 2 -->
+        <div class="row" style="margin-bottom: 2rem;">
+          <p class="h5 text-center mb-4">Vim & Vigr Compression Sleeves</p>
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/trBOuS9WdXs?rel=0&modestbranding=1&autohide=1&showinfo=0" frameborder="0" allowfullscreen>
+            </iframe>
+          </div>
+        </div>
+      </div> <!--/. Grid Column 2 -->
 		</div>
-	</section>
-	<div class="row my-5 py-4">
-		<!--First columnn-->
-		<div class="col-lg-4">
-			<!--Card-->
-			<div class="card wow fadeIn" data-wow-delay="0.2s">
-				<!--Card image-->
-				<img class="img-fluid fr-fic fr-dii" src="https://mdbootstrap.com/img/Photos/Others/images/49.jpg" alt="Card image cap">
-				<!--Card content-->
-				<div class="card-body">
-					<!--Title-->
+	</section><!--/. Main services 1 -->
 
-					<h4 class="card-title">Mesmerizing Landscapes</h4>
-					<!--Text-->
+  <!-- Main services 2 -->
+  <section>
+    <h2 class="my-5 h3 text-center">Unique Opportunities</h2>
 
-					<p class="card-text mb-4">Some quick example text to build on the card title and make up the bulk of the card's content.</p><a class="font-bold" href="#">Read more</a></div>
-			</div>
-			<!--/.Card-->
-		</div>
-		<!--First columnn-->
-		<!--Second columnn-->
-		<div class="col-lg-4">
-			<!--Card-->
-			<div class="card wow fadeIn" data-wow-delay="0.4s">
-				<!--Card image-->
-				<img class="img-fluid fr-fic fr-dii" src="https://mdbootstrap.com/img/Photos/Others/images/48.jpg" alt="Card image cap">
-				<!--Card content-->
-				<div class="card-body">
-					<!--Title-->
+    <!-- Row 1 -->
+    <div class="row features-small mt-5 wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
 
-					<h4 class="card-title">Top 5 holiday's places</h4>
-					<!--Text-->
+      <!-- Column 1 -->
+      <div class="col-xl-3 col-lg-6">
+        <!-- Column 1 Row 1 -->
+        <div class="row">
+          <div class="col-2">
+            <i class="fa fa-cloud fa-2x mb-1 synema-red" aria-hidden="true"></i>
+          </div>
+          <div class="col-10 mb-2 pl-3">
+            <h5 class="feature-title font-bold">Drone Services</h5>
+            <p class="grey-text">Cinematic footage from drones are all the rage. Footage from a drone instantly adds a level of quality
+               to a video, though not all the footage available is created equal. Our philosophy with our drones is to use them with purpose.</p>
+              <p class="grey-text">We are licensed with the FAA to legally fly drones and take the appropriate precautions to make all of our
+                 flights safe. We have a DJI Inspire 1 and a DJI Mavic Pro with 4k cameras, along with an experienced drone pilot to help
+                  you capture the shot you want.</p>
+          </div>
+        </div>
+      </div><!--/.Column 1 -->
 
-					<p class="card-text mb-4">Some quick example text to build on the card title and make up the bulk of the card's content.</p><a class="font-bold" href="#">Read more</a></div>
-			</div>
-			<!--/.Card-->
-		</div>
-		<!--Second columnn-->
-		<!--Third columnn-->
-		<div class="col-lg-4 mb-4">
-			<!--Card-->
-			<div class="card wow fadeIn" data-wow-delay="0.6s">
-				<!--Card image-->
-				<img class="img-fluid fr-fic fr-dii" src="https://mdbootstrap.com/img/Photos/Others/images/29.jpg" alt="Card image cap">
-				<!--Card content-->
-				<div class="card-body">
-					<!--Title-->
+      <!-- Column 2 -->
+      <div class="col-xl-3 col-lg-6">
+        <!-- Column 2 Row 1 -->
+        <div class="row">
+          <div class="col-2">
+            <i class="fa fa-calendar fa-2x mb-1 synema-red" aria-hidden="true"></i>
+          </div>
+          <div class="col-10 mb-2 pl-3">
+            <h5 class="feature-title font-bold">Equipment Rental</h5>
+            <p class="grey-text">We want to be able to spread creativity throughout our community and with a collection of high quality
+               video and photo equipment, we can lend a tool to someone who may not have the means of attaining just equipment otherwise.
+                If you are interested in leasing equipment for your own creative endeavors, we have the tools for you!</p>
+          </div>
+        </div>
+      </div><!--/.Column 2 -->
+    </div>
 
-					<h4 class="card-title">Mountain Rivers</h4>
-					<!--Text-->
-
-					<p class="card-text mb-4">Some quick example text to build on the card title and make up the bulk of the card's content.</p><a class="font-bold" href="#">Read more</a></div>
-			</div>
-			<!--/.Card-->
-		</div>
-		<!--Third columnn-->
-	</div>
-</div>
-<!--/.Content-->";s:4:"code";N;s:7:"viewBag";a:5:{s:5:"title";s:14:"Video Services";s:3:"url";s:15:"/video-services";s:6:"layout";s:9:"noSidebar";s:9:"is_hidden";s:1:"0";s:17:"navigation_hidden";s:1:"0";}s:12:"parsedMarkup";s:8017:"<style>
+    <!--Row 2 -->
+      <p class="h5 text-center mb-4">Drone Reel</p>
+      <div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/YtlSuOrEthg?rel=0&modestbranding=1&autohide=1&showinfo=0" frameborder="0"  allowfullscreen>
+        </iframe>
+      </div>
+      <!--/.Row 2 -->
+  </section><!--/.Main services 2 -->
+<!--/.Content-->";s:4:"code";N;s:7:"viewBag";a:5:{s:5:"title";s:14:"Video Services";s:3:"url";s:15:"/video-services";s:6:"layout";s:9:"noSidebar";s:9:"is_hidden";s:1:"0";s:17:"navigation_hidden";s:1:"0";}s:12:"parsedMarkup";s:11318:"<style>
 /* Carousel*/
 .carousel {
     height: 50%;
@@ -594,106 +680,149 @@ navigation_hidden = 0
 <div class="container">
 	<!-- Section: Main info -->
 	<section class="mt-5 wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
-		<!-- Grid row -->
 		<div class="row">
-			<!-- Column column -->
+
+			<!-- Column 1 -->
 			<div class="col-xl-5 mr-auto mb-r col-lg-6 wow fadeIn" data-wow-delay="0.4s">
 				<!-- Image -->
-				<img src="https://mdbootstrap.com/img/Photos/Others/images/53.jpg" class="img-fluid rounded z-depth-1-half fr-fic fr-dii" alt="My photo"></div>
-			<!-- Column column -->
-			<!-- Grid column column -->
+				<img src="/storage/app/media/Services/cinematographer.jpg" class="img-fluid rounded z-depth-1-half fr-fic fr-dii" alt="Cinematographer in the snow">
+      </div>
+
+			<!-- Column 2 -->
 			<div class="col-xl-6 col-lg-6 wow fadeIn" data-wow-delay="0.4s">
 				<!-- Main Heading -->
-
-				<h3 class="h3 mb-3">Why Us</h3>
+				<h3 class="h3 mb-3 underlined" style="text-transform: uppercase;">Why Us</h3>
 				<!-- Description -->
-
-				<p>Synema Studios is staffed by veterans of the online video, television, and traditional film industries, with decades of experience to stand on. Regardless of project size, we take ideas from pre-production through post-production, keeping timelines and budgets tight, while never losing sight of the ultimate goal: creating an experience that matters.</p>
+				<p>Synema Studios is staffed by <strong>veterans of the online video, television, and traditional film industries,</strong> with decades of experience to stand on.</p>
+        <p>Regardless of project size, we take ideas from pre-production through post-production, keeping timelines and budgets tight, while never losing sight of the ultimate goal: <strong>creating an experience that matters.</strong></p>
 				<!-- Buttons -->
 				<a class="btn btn-grey waves-effect waves-light" href="#" target="_blank">See Our Work</a>
-				<a class="btn btn-grey waves-effect waves-light" href="#" target="_blank">See Our Work</a></div>
-			<!-- Grid column -->
+				<a class="btn btn-grey waves-effect waves-light" href="#" target="_blank">See Our Work</a>
+      </div>
+
 		</div>
-		<!-- Grid row -->
 	</section>
 	<!-- Section: Main info -->
+
 	<hr class="my-5">
+
 	<!-- Section: Main services -->
 	<section>
-
-		<h3 class="h3 text-center mb-5">What We Do</h3>
-		<!-- Grid row -->
+		<h2 class="h3 text-center mb-5">What We Do</h2>
+		<!-- Grid top row -->
 		<div class="row wow fadeIn" style="visibility:visible; animation-name: fadeIn;">
 			<!-- Grid column 1 -->
 			<div class="col-lg-6 col-md-12 px-4">
+
 				<!-- Column 1 Row 1 -->
 				<div class="row" style="margin-bottom: 2rem;">
-					<div class="col-1 mr-3"><i class="fa fa-code fa-2x synema-red">::before</i></div>
+					<div class="col-1 mr-3"><i class="fa fa-video-camera fa-2x synema-red"></i></div>
 					<div class="col-10">
-
 						<h5 class="feature-title">Cinematography</h5>
-
-						<p class="grey-text">Moving images have the power to speak directly to the heart. Whether you’re selling cars or craft beer, video will make your message feel real in ways that nothing else can.</p>
+						<p class="grey-text">Moving images have the power to speak directly to the heart.
+              Whether you’re selling cars or craft beer, video will make your message feel
+              real in ways that nothing else can.</p>
 					</div>
 				</div>
-			</div>
+
+        <!-- Column 1 Row 2 -->
+        <div class="row" style="margin-bottom: 2rem;">
+          <div class="col-1 mr-3"><i class="fa fa-film fa-2x synema-red"></i></div>
+          <div class="col-10">
+            <h5 class="feature-title">Video Editing</h5>
+            <p class="grey-text">Editing can make or break a video. It's the editing that tells
+              the viewer what is most important in a scene. Editing can be used to showcase the
+              truth or fabricate a lie. All this is why the quality editing of a video is so important.</p>
+              <p class="grey-text">At Synema, our editors are skilled in the style and pacing of online video and have years of experience.</p>
+          </div>
+        </div>
+
+        <!-- Column 1 Row 3 -->
+        <div class="row" style="margin-bottom: 2rem;">
+          <div class="col-1 mr-3"><i class="fa fa-pencil fa-2x synema-red"></i></div>
+          <div class="col-10">
+            <h5 class="feature-title">Animation & Motion Graphics</h5>
+            <p class="grey-text">Excellent graphic design captures (and holds) the attention of the viewer. By mastering shape, space,
+               color, and texture, we deliver clean, efficient designs that honor the importance of the message, while reflecting the
+                tone of the brand.</p>
+              <p class="grey-text">Rather than chasing fads, we develop with an eye for timelessness. Whether you need print ads or an
+                 entire branding package, we’ll build you a product that’ll stand the test of time.</p>
+          </div>
+        </div>
+
+			</div> <!--/.Grid Column 1 -->
+
+      <!-- Grid Column 2 -->
+      <div class="col-lg-6 col-md-12">
+        <!-- Column 2 Row 1 -->
+        <div class="row" style="margin-bottom: 2rem;">
+          <p class="h5 text-center mb-4">Claire Emery Original Woodblock Prints</p>
+          <div class="embed-responsive embed-responsive-16by9" style="margin-bottom: 2rem;">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/xMs18zMNElU?rel=0&modestbranding=1&autohide=1&showinfo=0" frameborder="0" allowfullscreen>
+            </iframe>
+          </div>
+        </div>
+
+        <!-- Column 2 Row 2 -->
+        <div class="row" style="margin-bottom: 2rem;">
+          <p class="h5 text-center mb-4">Vim & Vigr Compression Sleeves</p>
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/trBOuS9WdXs?rel=0&modestbranding=1&autohide=1&showinfo=0" frameborder="0" allowfullscreen>
+            </iframe>
+          </div>
+        </div>
+      </div> <!--/. Grid Column 2 -->
 		</div>
-	</section>
-	<div class="row my-5 py-4">
-		<!--First columnn-->
-		<div class="col-lg-4">
-			<!--Card-->
-			<div class="card wow fadeIn" data-wow-delay="0.2s">
-				<!--Card image-->
-				<img class="img-fluid fr-fic fr-dii" src="https://mdbootstrap.com/img/Photos/Others/images/49.jpg" alt="Card image cap">
-				<!--Card content-->
-				<div class="card-body">
-					<!--Title-->
+	</section><!--/. Main services 1 -->
 
-					<h4 class="card-title">Mesmerizing Landscapes</h4>
-					<!--Text-->
+  <!-- Main services 2 -->
+  <section>
+    <h2 class="my-5 h3 text-center">Unique Opportunities</h2>
 
-					<p class="card-text mb-4">Some quick example text to build on the card title and make up the bulk of the card's content.</p><a class="font-bold" href="#">Read more</a></div>
-			</div>
-			<!--/.Card-->
-		</div>
-		<!--First columnn-->
-		<!--Second columnn-->
-		<div class="col-lg-4">
-			<!--Card-->
-			<div class="card wow fadeIn" data-wow-delay="0.4s">
-				<!--Card image-->
-				<img class="img-fluid fr-fic fr-dii" src="https://mdbootstrap.com/img/Photos/Others/images/48.jpg" alt="Card image cap">
-				<!--Card content-->
-				<div class="card-body">
-					<!--Title-->
+    <!-- Row 1 -->
+    <div class="row features-small mt-5 wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
 
-					<h4 class="card-title">Top 5 holiday's places</h4>
-					<!--Text-->
+      <!-- Column 1 -->
+      <div class="col-xl-3 col-lg-6">
+        <!-- Column 1 Row 1 -->
+        <div class="row">
+          <div class="col-2">
+            <i class="fa fa-cloud fa-2x mb-1 synema-red" aria-hidden="true"></i>
+          </div>
+          <div class="col-10 mb-2 pl-3">
+            <h5 class="feature-title font-bold">Drone Services</h5>
+            <p class="grey-text">Cinematic footage from drones are all the rage. Footage from a drone instantly adds a level of quality
+               to a video, though not all the footage available is created equal. Our philosophy with our drones is to use them with purpose.</p>
+              <p class="grey-text">We are licensed with the FAA to legally fly drones and take the appropriate precautions to make all of our
+                 flights safe. We have a DJI Inspire 1 and a DJI Mavic Pro with 4k cameras, along with an experienced drone pilot to help
+                  you capture the shot you want.</p>
+          </div>
+        </div>
+      </div><!--/.Column 1 -->
 
-					<p class="card-text mb-4">Some quick example text to build on the card title and make up the bulk of the card's content.</p><a class="font-bold" href="#">Read more</a></div>
-			</div>
-			<!--/.Card-->
-		</div>
-		<!--Second columnn-->
-		<!--Third columnn-->
-		<div class="col-lg-4 mb-4">
-			<!--Card-->
-			<div class="card wow fadeIn" data-wow-delay="0.6s">
-				<!--Card image-->
-				<img class="img-fluid fr-fic fr-dii" src="https://mdbootstrap.com/img/Photos/Others/images/29.jpg" alt="Card image cap">
-				<!--Card content-->
-				<div class="card-body">
-					<!--Title-->
+      <!-- Column 2 -->
+      <div class="col-xl-3 col-lg-6">
+        <!-- Column 2 Row 1 -->
+        <div class="row">
+          <div class="col-2">
+            <i class="fa fa-calendar fa-2x mb-1 synema-red" aria-hidden="true"></i>
+          </div>
+          <div class="col-10 mb-2 pl-3">
+            <h5 class="feature-title font-bold">Equipment Rental</h5>
+            <p class="grey-text">We want to be able to spread creativity throughout our community and with a collection of high quality
+               video and photo equipment, we can lend a tool to someone who may not have the means of attaining just equipment otherwise.
+                If you are interested in leasing equipment for your own creative endeavors, we have the tools for you!</p>
+          </div>
+        </div>
+      </div><!--/.Column 2 -->
+    </div>
 
-					<h4 class="card-title">Mountain Rivers</h4>
-					<!--Text-->
-
-					<p class="card-text mb-4">Some quick example text to build on the card title and make up the bulk of the card's content.</p><a class="font-bold" href="#">Read more</a></div>
-			</div>
-			<!--/.Card-->
-		</div>
-		<!--Third columnn-->
-	</div>
-</div>
+    <!--Row 2 -->
+      <p class="h5 text-center mb-4">Drone Reel</p>
+      <div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/YtlSuOrEthg?rel=0&modestbranding=1&autohide=1&showinfo=0" frameborder="0"  allowfullscreen>
+        </iframe>
+      </div>
+      <!--/.Row 2 -->
+  </section><!--/.Main services 2 -->
 <!--/.Content-->";}}

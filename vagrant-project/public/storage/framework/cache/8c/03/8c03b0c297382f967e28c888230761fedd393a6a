@@ -1,0 +1,624 @@
+1528939571a:1:{s:22:"marketing-services.htm";a:7:{s:8:"fileName";s:22:"marketing-services.htm";s:7:"content";s:7888:"[viewBag]
+title = "Marketing Services"
+url = "/marketing-services"
+layout = "noSidebar"
+is_hidden = 0
+navigation_hidden = 0
+==
+<style>
+/* Carousel*/
+.carousel {
+    height: 50%;
+}
+
+@media (max-width: 776px) {
+    .carousel {
+        height: 100%;
+    }
+}
+
+.carousel-item,
+.active {
+    height: 100%;
+}
+
+.carousel-inner {
+    height: 100%;
+}
+
+/*Caption*/
+.flex-center {
+    color: #fff;
+}
+
+</style>
+
+<!--Carousel Wrapper-->
+<div class="carousel slide carousel-fade white-text" data-interval="5000" data-ride="carousel" id="carousel-example-3">
+	<!--Indicators-->
+
+	<ol class="carousel-indicators">
+		<li class="active" data-slide-to="0" data-target="#carousel-example-3">
+			<br>
+		</li>
+		<li data-slide-to="1" data-target="#carousel-example-3">
+			<br>
+		</li>
+		<li data-slide-to="2" data-target="#carousel-example-3">
+			<br>
+		</li>
+	</ol>
+	<!--/.Indicators-->
+	<!--Slides-->
+	<div class="carousel-inner">
+		<!-- First slide -->
+		<div class="carousel-item active hm-black-light" style="background-image: url('https://mdbootstrap.com/img/Photos/Others/images/47.jpg'); background-repeat: no-repeat; background-size: cover;">
+			<!-- Caption -->
+			<div class="full-bg-img flex-center white-text">
+
+				<ul class="animated fadeIn col-md-12">
+					<li>
+
+						<h1 class="h1-responsive font-bold">20 Photos to inspire you to visit Tatra Mountains</h1>
+					</li>
+					<li>
+
+						<p>Best places you should see, traditional dishes that you have to try</p>
+					</li>
+					<li><a class="btn btn-outline-white" href="https://mdbootstrap.com/getting-started/?utm_source=4e323a&amp;utm_id=4e323a" rel="nofollow" target="_blank">See more!</a></li>
+				</ul>
+			</div>
+			<!-- /.Caption -->
+		</div>
+		<!--/.First slide-->
+		<!-- Second slide -->
+		<div class="carousel-item hm-black-light" style="background-image: url('https://mdbootstrap.com/img/Photos/Others/images/77.jpg'); background-repeat: no-repeat; background-size: cover;">
+			<!-- Caption -->
+			<div class="full-bg-img flex-center white-text">
+
+				<ul class="animated fadeIn col-md-12">
+					<li>
+
+						<h1 class="h1-responsive font-bold">10 Reasons you should spend winter holiday in mountains</h1>
+					</li>
+					<li>
+
+						<p>Best atractions and winter sports!</p>
+					</li>
+					<li><a class="btn btn-outline-white" href="https://mdbootstrap.com/bootstrap-tutorial/?utm_source=4e323a&amp;utm_id=4e323a" rel="nofollow" target="_blank">Read more</a></li>
+				</ul>
+			</div>
+			<!-- /.Caption -->
+		</div>
+		<!--/.Second slide -->
+		<!-- Third slide -->
+		<div class="carousel-item hm-black-slight" style="background-image: url('https://mdbootstrap.com/img/Photos/Others/nature7.jpg'); background-repeat: no-repeat; background-size: cover;">
+			<!-- Caption -->
+			<div class="full-bg-img flex-center white-text">
+
+				<ul class="animated fadeIn col-md-12">
+					<li>
+
+						<h1 class="h1-responsive font-bold">Weekend in the nature - the best way to relax</h1>
+					</li>
+					<li>
+
+						<p>8 Reasons why you need to spend more time in nature</p>
+					</li>
+					<li><a class="btn btn-outline-white" href="https://mdbootstrap.com/forums/forum/support/?utm_source=4e323a&amp;utm_id=4e323a" rel="nofollow" target="_blank">Read more</a></li>
+				</ul>
+			</div>
+			<!-- /.Caption -->
+		</div>
+		<!--/.Third slide-->
+	</div>
+	<!--/.Slides-->
+	<!--Controls-->
+	<a class="carousel-control-prev" data-slide="prev" href="#carousel-example-3">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+	<a class="carousel-control-next" data-slide="next" href="#carousel-example-3">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+	<!--/.Controls-->
+</div>
+<!--/.Carousel Wrapper-->
+
+<p>
+	<br>
+</p>
+
+<!--Content-->
+<div class="container">
+
+<!-- Section: Main services -->
+<section>
+  <!-- Section heading -->
+  <h2 class="h1-responsive font-weight-bold text-center my-5">Why is it so great?</h2>
+  <!-- Section description -->
+  <p class="lead grey-text text-center w-responsive mx-auto mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+
+  <!-- Grid-->
+  <div class="row wow fadeIn" style="visibility:visible; animation-name: fadeIn;">
+
+    <!-- Column 1 -->
+    <div class="col-lg-6 col-md-12 px-4">
+      <!-- Column 1 Row 1 -->
+      <div class="row" style="margin-bottom: 2rem;">
+        <div>
+          <img  class="img-fluid rounded z-depth-1-half fr-fic fr-dii" src="/storage/app/media/Services/meeting.jpg" alt="Staff meeting">
+        </div>
+      </div>
+
+      <!-- Column 1 Row 2 -->
+      <div class="row" style="margin-bottom: 2rem;">
+        <div>
+          <img  class="img-fluid rounded z-depth-1-half fr-fic fr-dii" src="/storage/app/media/Services/public_speaking.jpg" alt="Public speaker sitting on a panel">
+        </div>
+      </div>
+    </div> <!--/. Column 1 -->
+
+    <!-- Grid Column 2 -->
+    <div class="col-lg-6 col-md-12">
+      <!-- Column 2 Row 1 -->
+      <div class="row" style="margin-bottom: 2rem;">
+        <div class="col-1 mr-3"><i class="fa fa-truck fa-2x synema-red"></i></div>
+        <div class="col-10">
+          <h5 class="font-weight-bold mb-3">Merch Fulfillment</h5>
+          <p class="grey-text">When fans find passion in supporting your cause, nothing helps them show off their pride like wearing
+             it on their bodies. From t-shirts to stickers to posters to plushies and everything in between, we handle sourcing, production,
+              logistics, online store management, and distribution, giving you a turnkey solution to get your brand into the hands of people
+               who are eager to show it off.</p>
+        </div>
+      </div>
+
+      <!-- Column 2 Row 2 -->
+      <div class="row" style="margin-bottom: 2rem;">
+        <div class="col-1 mr-3"><i class="fa fa-keyboard-o fa-2x synema-red"></i></div>
+        <div class="col-10">
+          <h5 class="font-weight-bold mb-3">Website Development</h5>
+          <p class="grey-text">Welcome to the 21st century. You need a website. Something that gives your customers the information they want
+             without getting in the way. We specialize in laying out information thoughtfully and deliberately, making navigation quick, intuitive,
+              and painless.</p>
+          <p class="grey-text">First impressions matter, and the first time a customer visits your website, we’ll give them a lasting experience
+             to keep your business top-of-mind.</p>
+        </div>
+      </div>
+
+      <!-- Column 2 Row 3 -->
+      <div class="row" style="margin-bottom: 2rem;">
+        <div class="col-1 mr-3"><i class="fa fa-microphone fa-2x synema-red"></i></div>
+        <div class="col-10">
+          <h5 class="font-weight-bold mb-3">Speaking Engagements</h5>
+          <p class="grey-text">Our employees have spoken at small private schools, worldwide conferences, like Vidcon, and national festivals
+             like the Big Sky Film Festival. We know the power of technology and an online presence and we want to share it with you.</p>
+        </div>
+      </div>
+
+      <!-- Column 2 Row 4 -->
+      <div class="row" style="margin-bottom: 2rem;">
+        <div class="col-1 mr-3"><i class="fa fa-comments fa-2x synema-red"></i></div>
+        <div class="col-10">
+          <h5 class="font-weight-bold mb-3">Online Video Consultation</h5>
+          <p class="grey-text mb-0">Online video is the way to advertise and create. There are no limitations to your style, your ideas, or your audience.
+             With our many years of creating online videos, we can help you create the experience you want for your audience.</p>
+        </div>
+      </div>
+    </div><!--/. Column 2 -->
+  </div><!--/. Grid -->
+</section><!--/. Main services 1 -->
+
+</div>
+";s:5:"mtime";i:1528911951;s:6:"markup";s:7760:"<style>
+/* Carousel*/
+.carousel {
+    height: 50%;
+}
+
+@media (max-width: 776px) {
+    .carousel {
+        height: 100%;
+    }
+}
+
+.carousel-item,
+.active {
+    height: 100%;
+}
+
+.carousel-inner {
+    height: 100%;
+}
+
+/*Caption*/
+.flex-center {
+    color: #fff;
+}
+
+</style>
+
+<!--Carousel Wrapper-->
+<div class="carousel slide carousel-fade white-text" data-interval="5000" data-ride="carousel" id="carousel-example-3">
+	<!--Indicators-->
+
+	<ol class="carousel-indicators">
+		<li class="active" data-slide-to="0" data-target="#carousel-example-3">
+			<br>
+		</li>
+		<li data-slide-to="1" data-target="#carousel-example-3">
+			<br>
+		</li>
+		<li data-slide-to="2" data-target="#carousel-example-3">
+			<br>
+		</li>
+	</ol>
+	<!--/.Indicators-->
+	<!--Slides-->
+	<div class="carousel-inner">
+		<!-- First slide -->
+		<div class="carousel-item active hm-black-light" style="background-image: url('https://mdbootstrap.com/img/Photos/Others/images/47.jpg'); background-repeat: no-repeat; background-size: cover;">
+			<!-- Caption -->
+			<div class="full-bg-img flex-center white-text">
+
+				<ul class="animated fadeIn col-md-12">
+					<li>
+
+						<h1 class="h1-responsive font-bold">20 Photos to inspire you to visit Tatra Mountains</h1>
+					</li>
+					<li>
+
+						<p>Best places you should see, traditional dishes that you have to try</p>
+					</li>
+					<li><a class="btn btn-outline-white" href="https://mdbootstrap.com/getting-started/?utm_source=4e323a&amp;utm_id=4e323a" rel="nofollow" target="_blank">See more!</a></li>
+				</ul>
+			</div>
+			<!-- /.Caption -->
+		</div>
+		<!--/.First slide-->
+		<!-- Second slide -->
+		<div class="carousel-item hm-black-light" style="background-image: url('https://mdbootstrap.com/img/Photos/Others/images/77.jpg'); background-repeat: no-repeat; background-size: cover;">
+			<!-- Caption -->
+			<div class="full-bg-img flex-center white-text">
+
+				<ul class="animated fadeIn col-md-12">
+					<li>
+
+						<h1 class="h1-responsive font-bold">10 Reasons you should spend winter holiday in mountains</h1>
+					</li>
+					<li>
+
+						<p>Best atractions and winter sports!</p>
+					</li>
+					<li><a class="btn btn-outline-white" href="https://mdbootstrap.com/bootstrap-tutorial/?utm_source=4e323a&amp;utm_id=4e323a" rel="nofollow" target="_blank">Read more</a></li>
+				</ul>
+			</div>
+			<!-- /.Caption -->
+		</div>
+		<!--/.Second slide -->
+		<!-- Third slide -->
+		<div class="carousel-item hm-black-slight" style="background-image: url('https://mdbootstrap.com/img/Photos/Others/nature7.jpg'); background-repeat: no-repeat; background-size: cover;">
+			<!-- Caption -->
+			<div class="full-bg-img flex-center white-text">
+
+				<ul class="animated fadeIn col-md-12">
+					<li>
+
+						<h1 class="h1-responsive font-bold">Weekend in the nature - the best way to relax</h1>
+					</li>
+					<li>
+
+						<p>8 Reasons why you need to spend more time in nature</p>
+					</li>
+					<li><a class="btn btn-outline-white" href="https://mdbootstrap.com/forums/forum/support/?utm_source=4e323a&amp;utm_id=4e323a" rel="nofollow" target="_blank">Read more</a></li>
+				</ul>
+			</div>
+			<!-- /.Caption -->
+		</div>
+		<!--/.Third slide-->
+	</div>
+	<!--/.Slides-->
+	<!--Controls-->
+	<a class="carousel-control-prev" data-slide="prev" href="#carousel-example-3">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+	<a class="carousel-control-next" data-slide="next" href="#carousel-example-3">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+	<!--/.Controls-->
+</div>
+<!--/.Carousel Wrapper-->
+
+<p>
+	<br>
+</p>
+
+<!--Content-->
+<div class="container">
+
+<!-- Section: Main services -->
+<section>
+  <!-- Section heading -->
+  <h2 class="h1-responsive font-weight-bold text-center my-5">Why is it so great?</h2>
+  <!-- Section description -->
+  <p class="lead grey-text text-center w-responsive mx-auto mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+
+  <!-- Grid-->
+  <div class="row wow fadeIn" style="visibility:visible; animation-name: fadeIn;">
+
+    <!-- Column 1 -->
+    <div class="col-lg-6 col-md-12 px-4">
+      <!-- Column 1 Row 1 -->
+      <div class="row" style="margin-bottom: 2rem;">
+        <div>
+          <img  class="img-fluid rounded z-depth-1-half fr-fic fr-dii" src="/storage/app/media/Services/meeting.jpg" alt="Staff meeting">
+        </div>
+      </div>
+
+      <!-- Column 1 Row 2 -->
+      <div class="row" style="margin-bottom: 2rem;">
+        <div>
+          <img  class="img-fluid rounded z-depth-1-half fr-fic fr-dii" src="/storage/app/media/Services/public_speaking.jpg" alt="Public speaker sitting on a panel">
+        </div>
+      </div>
+    </div> <!--/. Column 1 -->
+
+    <!-- Grid Column 2 -->
+    <div class="col-lg-6 col-md-12">
+      <!-- Column 2 Row 1 -->
+      <div class="row" style="margin-bottom: 2rem;">
+        <div class="col-1 mr-3"><i class="fa fa-truck fa-2x synema-red"></i></div>
+        <div class="col-10">
+          <h5 class="font-weight-bold mb-3">Merch Fulfillment</h5>
+          <p class="grey-text">When fans find passion in supporting your cause, nothing helps them show off their pride like wearing
+             it on their bodies. From t-shirts to stickers to posters to plushies and everything in between, we handle sourcing, production,
+              logistics, online store management, and distribution, giving you a turnkey solution to get your brand into the hands of people
+               who are eager to show it off.</p>
+        </div>
+      </div>
+
+      <!-- Column 2 Row 2 -->
+      <div class="row" style="margin-bottom: 2rem;">
+        <div class="col-1 mr-3"><i class="fa fa-keyboard-o fa-2x synema-red"></i></div>
+        <div class="col-10">
+          <h5 class="font-weight-bold mb-3">Website Development</h5>
+          <p class="grey-text">Welcome to the 21st century. You need a website. Something that gives your customers the information they want
+             without getting in the way. We specialize in laying out information thoughtfully and deliberately, making navigation quick, intuitive,
+              and painless.</p>
+          <p class="grey-text">First impressions matter, and the first time a customer visits your website, we’ll give them a lasting experience
+             to keep your business top-of-mind.</p>
+        </div>
+      </div>
+
+      <!-- Column 2 Row 3 -->
+      <div class="row" style="margin-bottom: 2rem;">
+        <div class="col-1 mr-3"><i class="fa fa-microphone fa-2x synema-red"></i></div>
+        <div class="col-10">
+          <h5 class="font-weight-bold mb-3">Speaking Engagements</h5>
+          <p class="grey-text">Our employees have spoken at small private schools, worldwide conferences, like Vidcon, and national festivals
+             like the Big Sky Film Festival. We know the power of technology and an online presence and we want to share it with you.</p>
+        </div>
+      </div>
+
+      <!-- Column 2 Row 4 -->
+      <div class="row" style="margin-bottom: 2rem;">
+        <div class="col-1 mr-3"><i class="fa fa-comments fa-2x synema-red"></i></div>
+        <div class="col-10">
+          <h5 class="font-weight-bold mb-3">Online Video Consultation</h5>
+          <p class="grey-text mb-0">Online video is the way to advertise and create. There are no limitations to your style, your ideas, or your audience.
+             With our many years of creating online videos, we can help you create the experience you want for your audience.</p>
+        </div>
+      </div>
+    </div><!--/. Column 2 -->
+  </div><!--/. Grid -->
+</section><!--/. Main services 1 -->
+
+</div>";s:4:"code";N;s:7:"viewBag";a:5:{s:5:"title";s:18:"Marketing Services";s:3:"url";s:19:"/marketing-services";s:6:"layout";s:9:"noSidebar";s:9:"is_hidden";s:1:"0";s:17:"navigation_hidden";s:1:"0";}s:12:"parsedMarkup";s:7760:"<style>
+/* Carousel*/
+.carousel {
+    height: 50%;
+}
+
+@media (max-width: 776px) {
+    .carousel {
+        height: 100%;
+    }
+}
+
+.carousel-item,
+.active {
+    height: 100%;
+}
+
+.carousel-inner {
+    height: 100%;
+}
+
+/*Caption*/
+.flex-center {
+    color: #fff;
+}
+
+</style>
+
+<!--Carousel Wrapper-->
+<div class="carousel slide carousel-fade white-text" data-interval="5000" data-ride="carousel" id="carousel-example-3">
+	<!--Indicators-->
+
+	<ol class="carousel-indicators">
+		<li class="active" data-slide-to="0" data-target="#carousel-example-3">
+			<br>
+		</li>
+		<li data-slide-to="1" data-target="#carousel-example-3">
+			<br>
+		</li>
+		<li data-slide-to="2" data-target="#carousel-example-3">
+			<br>
+		</li>
+	</ol>
+	<!--/.Indicators-->
+	<!--Slides-->
+	<div class="carousel-inner">
+		<!-- First slide -->
+		<div class="carousel-item active hm-black-light" style="background-image: url('https://mdbootstrap.com/img/Photos/Others/images/47.jpg'); background-repeat: no-repeat; background-size: cover;">
+			<!-- Caption -->
+			<div class="full-bg-img flex-center white-text">
+
+				<ul class="animated fadeIn col-md-12">
+					<li>
+
+						<h1 class="h1-responsive font-bold">20 Photos to inspire you to visit Tatra Mountains</h1>
+					</li>
+					<li>
+
+						<p>Best places you should see, traditional dishes that you have to try</p>
+					</li>
+					<li><a class="btn btn-outline-white" href="https://mdbootstrap.com/getting-started/?utm_source=4e323a&amp;utm_id=4e323a" rel="nofollow" target="_blank">See more!</a></li>
+				</ul>
+			</div>
+			<!-- /.Caption -->
+		</div>
+		<!--/.First slide-->
+		<!-- Second slide -->
+		<div class="carousel-item hm-black-light" style="background-image: url('https://mdbootstrap.com/img/Photos/Others/images/77.jpg'); background-repeat: no-repeat; background-size: cover;">
+			<!-- Caption -->
+			<div class="full-bg-img flex-center white-text">
+
+				<ul class="animated fadeIn col-md-12">
+					<li>
+
+						<h1 class="h1-responsive font-bold">10 Reasons you should spend winter holiday in mountains</h1>
+					</li>
+					<li>
+
+						<p>Best atractions and winter sports!</p>
+					</li>
+					<li><a class="btn btn-outline-white" href="https://mdbootstrap.com/bootstrap-tutorial/?utm_source=4e323a&amp;utm_id=4e323a" rel="nofollow" target="_blank">Read more</a></li>
+				</ul>
+			</div>
+			<!-- /.Caption -->
+		</div>
+		<!--/.Second slide -->
+		<!-- Third slide -->
+		<div class="carousel-item hm-black-slight" style="background-image: url('https://mdbootstrap.com/img/Photos/Others/nature7.jpg'); background-repeat: no-repeat; background-size: cover;">
+			<!-- Caption -->
+			<div class="full-bg-img flex-center white-text">
+
+				<ul class="animated fadeIn col-md-12">
+					<li>
+
+						<h1 class="h1-responsive font-bold">Weekend in the nature - the best way to relax</h1>
+					</li>
+					<li>
+
+						<p>8 Reasons why you need to spend more time in nature</p>
+					</li>
+					<li><a class="btn btn-outline-white" href="https://mdbootstrap.com/forums/forum/support/?utm_source=4e323a&amp;utm_id=4e323a" rel="nofollow" target="_blank">Read more</a></li>
+				</ul>
+			</div>
+			<!-- /.Caption -->
+		</div>
+		<!--/.Third slide-->
+	</div>
+	<!--/.Slides-->
+	<!--Controls-->
+	<a class="carousel-control-prev" data-slide="prev" href="#carousel-example-3">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+	<a class="carousel-control-next" data-slide="next" href="#carousel-example-3">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+	<!--/.Controls-->
+</div>
+<!--/.Carousel Wrapper-->
+
+<p>
+	<br>
+</p>
+
+<!--Content-->
+<div class="container">
+
+<!-- Section: Main services -->
+<section>
+  <!-- Section heading -->
+  <h2 class="h1-responsive font-weight-bold text-center my-5">Why is it so great?</h2>
+  <!-- Section description -->
+  <p class="lead grey-text text-center w-responsive mx-auto mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+
+  <!-- Grid-->
+  <div class="row wow fadeIn" style="visibility:visible; animation-name: fadeIn;">
+
+    <!-- Column 1 -->
+    <div class="col-lg-6 col-md-12 px-4">
+      <!-- Column 1 Row 1 -->
+      <div class="row" style="margin-bottom: 2rem;">
+        <div>
+          <img  class="img-fluid rounded z-depth-1-half fr-fic fr-dii" src="/storage/app/media/Services/meeting.jpg" alt="Staff meeting">
+        </div>
+      </div>
+
+      <!-- Column 1 Row 2 -->
+      <div class="row" style="margin-bottom: 2rem;">
+        <div>
+          <img  class="img-fluid rounded z-depth-1-half fr-fic fr-dii" src="/storage/app/media/Services/public_speaking.jpg" alt="Public speaker sitting on a panel">
+        </div>
+      </div>
+    </div> <!--/. Column 1 -->
+
+    <!-- Grid Column 2 -->
+    <div class="col-lg-6 col-md-12">
+      <!-- Column 2 Row 1 -->
+      <div class="row" style="margin-bottom: 2rem;">
+        <div class="col-1 mr-3"><i class="fa fa-truck fa-2x synema-red"></i></div>
+        <div class="col-10">
+          <h5 class="font-weight-bold mb-3">Merch Fulfillment</h5>
+          <p class="grey-text">When fans find passion in supporting your cause, nothing helps them show off their pride like wearing
+             it on their bodies. From t-shirts to stickers to posters to plushies and everything in between, we handle sourcing, production,
+              logistics, online store management, and distribution, giving you a turnkey solution to get your brand into the hands of people
+               who are eager to show it off.</p>
+        </div>
+      </div>
+
+      <!-- Column 2 Row 2 -->
+      <div class="row" style="margin-bottom: 2rem;">
+        <div class="col-1 mr-3"><i class="fa fa-keyboard-o fa-2x synema-red"></i></div>
+        <div class="col-10">
+          <h5 class="font-weight-bold mb-3">Website Development</h5>
+          <p class="grey-text">Welcome to the 21st century. You need a website. Something that gives your customers the information they want
+             without getting in the way. We specialize in laying out information thoughtfully and deliberately, making navigation quick, intuitive,
+              and painless.</p>
+          <p class="grey-text">First impressions matter, and the first time a customer visits your website, we’ll give them a lasting experience
+             to keep your business top-of-mind.</p>
+        </div>
+      </div>
+
+      <!-- Column 2 Row 3 -->
+      <div class="row" style="margin-bottom: 2rem;">
+        <div class="col-1 mr-3"><i class="fa fa-microphone fa-2x synema-red"></i></div>
+        <div class="col-10">
+          <h5 class="font-weight-bold mb-3">Speaking Engagements</h5>
+          <p class="grey-text">Our employees have spoken at small private schools, worldwide conferences, like Vidcon, and national festivals
+             like the Big Sky Film Festival. We know the power of technology and an online presence and we want to share it with you.</p>
+        </div>
+      </div>
+
+      <!-- Column 2 Row 4 -->
+      <div class="row" style="margin-bottom: 2rem;">
+        <div class="col-1 mr-3"><i class="fa fa-comments fa-2x synema-red"></i></div>
+        <div class="col-10">
+          <h5 class="font-weight-bold mb-3">Online Video Consultation</h5>
+          <p class="grey-text mb-0">Online video is the way to advertise and create. There are no limitations to your style, your ideas, or your audience.
+             With our many years of creating online videos, we can help you create the experience you want for your audience.</p>
+        </div>
+      </div>
+    </div><!--/. Column 2 -->
+  </div><!--/. Grid -->
+</section><!--/. Main services 1 -->
+
+</div>";}}
