@@ -1,10 +1,58 @@
-1528939570a:1:{s:9:"about.htm";a:7:{s:8:"fileName";s:9:"about.htm";s:7:"content";s:904:"[viewBag]
+1529318135a:1:{s:9:"about.htm";a:7:{s:8:"fileName";s:9:"about.htm";s:7:"content";s:1811:"[viewBag]
 title = "About Us"
 url = "/about"
-layout = "fullImageBg"
+layout = "noSidebar"
 is_hidden = 0
 navigation_hidden = 0
 ==
+<style>
+main {
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+
+section.view {
+    height: 100%;
+}
+
+.extra-margins {
+    margin-top: 1rem;
+    margin-bottom: 2.5rem;
+}
+
+@media (max-width: 768px) {
+    .display-1 {
+        font-size: 4rem;
+    }
+}
+
+.spacing {
+    letter-spacing: 3px;
+}
+
+@media (max-width: 740px) {
+    .full-height,
+    .full-height body,
+    .full-height header,
+    .full-height header .view {
+        height: 700px;
+    }
+}
+</style>
+<section id="aboutHero" class="view hm-black-light jarallax" data-jarallax="{">
+	<div class="full-bg-img">
+		<div class="container flex-center">
+			<div class="row pt-5 mt-3">
+				<div class="col-md-12 mb-3">
+					<div class="intro-info-content text-center">
+
+						<h1 class="display-3 white-text mb-5 wow fadeInDown" data-wow-delay="0.3s">WE BUILD <a class="synema-red font-bold">EXPERIENCES</a></h1>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
 <div class="section-heading">
 
 	<h1><span>Who We Are</span></h1>
@@ -20,7 +68,55 @@ navigation_hidden = 0
 		<br>
 	</p>
 </div>
-";s:5:"mtime";i:1527205968;s:6:"markup";s:796:"<div class="section-heading">
+";s:5:"mtime";i:1529317435;s:6:"markup";s:1705:"<style>
+main {
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+
+section.view {
+    height: 100%;
+}
+
+.extra-margins {
+    margin-top: 1rem;
+    margin-bottom: 2.5rem;
+}
+
+@media (max-width: 768px) {
+    .display-1 {
+        font-size: 4rem;
+    }
+}
+
+.spacing {
+    letter-spacing: 3px;
+}
+
+@media (max-width: 740px) {
+    .full-height,
+    .full-height body,
+    .full-height header,
+    .full-height header .view {
+        height: 700px;
+    }
+}
+</style>
+<section id="aboutHero" class="view hm-black-light jarallax" data-jarallax="{">
+	<div class="full-bg-img">
+		<div class="container flex-center">
+			<div class="row pt-5 mt-3">
+				<div class="col-md-12 mb-3">
+					<div class="intro-info-content text-center">
+
+						<h1 class="display-3 white-text mb-5 wow fadeInDown" data-wow-delay="0.3s">WE BUILD <a class="synema-red font-bold">EXPERIENCES</a></h1>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<div class="section-heading">
 
 	<h1><span>Who We Are</span></h1>
 </div>
@@ -34,7 +130,55 @@ navigation_hidden = 0
 		<br>
 		<br>
 	</p>
-</div>";s:4:"code";N;s:7:"viewBag";a:5:{s:5:"title";s:8:"About Us";s:3:"url";s:6:"/about";s:6:"layout";s:11:"fullImageBg";s:9:"is_hidden";s:1:"0";s:17:"navigation_hidden";s:1:"0";}s:12:"parsedMarkup";s:796:"<div class="section-heading">
+</div>";s:4:"code";N;s:7:"viewBag";a:5:{s:5:"title";s:8:"About Us";s:3:"url";s:6:"/about";s:6:"layout";s:9:"noSidebar";s:9:"is_hidden";s:1:"0";s:17:"navigation_hidden";s:1:"0";}s:12:"parsedMarkup";s:1705:"<style>
+main {
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+
+section.view {
+    height: 100%;
+}
+
+.extra-margins {
+    margin-top: 1rem;
+    margin-bottom: 2.5rem;
+}
+
+@media (max-width: 768px) {
+    .display-1 {
+        font-size: 4rem;
+    }
+}
+
+.spacing {
+    letter-spacing: 3px;
+}
+
+@media (max-width: 740px) {
+    .full-height,
+    .full-height body,
+    .full-height header,
+    .full-height header .view {
+        height: 700px;
+    }
+}
+</style>
+<section id="aboutHero" class="view hm-black-light jarallax" data-jarallax="{">
+	<div class="full-bg-img">
+		<div class="container flex-center">
+			<div class="row pt-5 mt-3">
+				<div class="col-md-12 mb-3">
+					<div class="intro-info-content text-center">
+
+						<h1 class="display-3 white-text mb-5 wow fadeInDown" data-wow-delay="0.3s">WE BUILD <a class="synema-red font-bold">EXPERIENCES</a></h1>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<div class="section-heading">
 
 	<h1><span>Who We Are</span></h1>
 </div>

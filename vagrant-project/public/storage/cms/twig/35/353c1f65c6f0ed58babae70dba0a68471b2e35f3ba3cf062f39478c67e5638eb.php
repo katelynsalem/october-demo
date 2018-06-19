@@ -34,7 +34,7 @@ class __TwigTemplate_af53df17734953d85c1d17312a42e3cc3f59cc41c4295edaae98d0fadc7
         echo $this->env->getExtension('Cms\Twig\Extension')->themeFilter(array(0 => "assets/css/bootstrap.min.css", 1 => "assets/css/mdb.min.css", 2 => "assets/css/style.css"));
         // line 15
         echo "\" rel=\"stylesheet\">
-
+    <script src=\"https://code.jquery.com/jquery-1.11.2.min.js\"></script>
     ";
         // line 17
         echo $this->env->getExtension('Cms\Twig\Extension')->assetsFunction('css');
@@ -76,7 +76,7 @@ class __TwigTemplate_af53df17734953d85c1d17312a42e3cc3f59cc41c4295edaae98d0fadc7
         'assets/css/mdb.min.css',
         'assets/css/style.css',
     ]|theme }}\" rel=\"stylesheet\">
-
+    <script src=\"https://code.jquery.com/jquery-1.11.2.min.js\"></script>
     {% styles %}
 </head>
 <body>", "/var/www/public/themes/synema-salem-mdb-loaded/partials/site/head.htm", "");

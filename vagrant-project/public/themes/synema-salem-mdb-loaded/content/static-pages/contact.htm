@@ -7,6 +7,40 @@ navigation_hidden = 0
 altText = "production lights"
 bgImageXSmall = "/kino2.jpg"
 ==
+<!-- Opening Modal on page load -->
+<script type="text/javascript">
+	$(document).ready(function(){
+		$("#promoModal").modal('show');
+	});
+</script>
+
+<!--Modal: modalYT-->
+<div class="modal fade" id="promoModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+
+        <!--Content-->
+        <div class="modal-content">
+
+            <!--Body-->
+            <div class="modal-body mb-0 p-0">
+
+                <img class="img-fluid" src="http://192.168.33.10/storage/app/media/Ads/packageSpecialFlyer.jpg" alt="$500 special for the summer">
+
+            </div>
+
+            <!--Footer-->
+            <div class="modal-footer justify-content-center flex-column">
+                <p class="center-text">Contact us about your project and mention this special!</p>
+                <button type="button" class="btn btn-outline-primary btn-rounded btn-md ml-4" data-dismiss="modal">Close</button>
+            </div>
+
+        </div>
+        <!--/.Content-->
+
+    </div>
+</div>
+
+
 <!-- Section: Contact v.1 -->
 <section class="my-5 section-heading">
 	<!-- Section heading -->
@@ -74,19 +108,19 @@ bgImageXSmall = "/kino2.jpg"
 			<br>
 			<!-- Buttons-->
 			<div class="row text-center">
-				<div class="col-md-4"><a class="btn-floating">&nbsp;<i class="fa fa-map-marker"></i>&nbsp;</a>
+				<div class="col-md-4"><a class="btn-floating"><i class="fa fa-map-marker" style="margin-top:1rem;"></i></a>
 
 					<p>500 N Higgins Ave, Suite 109</p>
 					<p>Missoula, MT 59802</p>
 
 				</div>
-				<div class="col-md-4"><a class="btn-floating">&nbsp;<i class="fa fa-phone"></i>&nbsp;</a>
+				<div class="col-md-4"><a class="btn-floating"><i class="fa fa-phone" style="margin-top:1rem;"></i></a>
 
 					<p>+ 01 888 609 1140</p>
 
 					<p class="mb-md-0">Mon - Thur, 10:00 - 8:00pm</p>
 				</div>
-				<div class="col-md-4"><a class="btn-floating">&nbsp;<i class="fa fa-envelope"></i>&nbsp;</a>
+				<div class="col-md-4"><a class="btn-floating"><i class="fa fa-envelope" style="margin-top:1rem;"></i></a>
 					<br>
 					<script type="text/javascript">
 					/*<![CDATA[*/

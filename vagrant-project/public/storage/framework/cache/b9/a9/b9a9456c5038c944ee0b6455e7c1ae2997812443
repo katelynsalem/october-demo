@@ -1,4 +1,4 @@
-1528939570a:1:{s:18:"audio-services.htm";a:7:{s:8:"fileName";s:18:"audio-services.htm";s:7:"content";s:7303:"[viewBag]
+1529318135a:1:{s:18:"audio-services.htm";a:7:{s:8:"fileName";s:18:"audio-services.htm";s:7:"content";s:7476:"[viewBag]
 title = "Audio Services"
 url = "/audio-services"
 layout = "noSidebar"
@@ -137,9 +137,10 @@ navigation_hidden = 0
   <!-- Section heading -->
   <h2 class="h1-responsive font-weight-bold text-center my-5">We Know Sound</h2>
   <!-- Section description -->
-  <p class="lead grey-text text-center w-responsive mx-auto mb-5">Synema Studios has provided sound services for hundreds of projects,
-     from corporate reels to podcasts to musical albums. We have an ear (several, actually) for crafting highly-polished audio
-      experiences that stand out from the noise.</p>
+  <p class="lead grey-text text-center w-responsive mx-auto mb-5">Here at Synema Studios we understand that it takes more than good
+     video to make a project great, which is why we’ve gone out of our way to find talented audio engineers that will make your sounds
+      sing. We have the experience to cater to your audio needs, whether that’s sound for a corporate reel, recording a podcast, or
+       mastering an album. Our goal is to set your project apart from the noise.</p>
 
   <!-- Main Services -->
   <div class="row">
@@ -212,7 +213,7 @@ navigation_hidden = 0
 
 </section>
 </div>
-";s:5:"mtime";i:1528836400;s:6:"markup";s:7183:"<style>
+";s:5:"mtime";i:1528998047;s:6:"markup";s:7356:"<style>
 /* Carousel*/
 .carousel {
     height: 50%;
@@ -344,9 +345,10 @@ navigation_hidden = 0
   <!-- Section heading -->
   <h2 class="h1-responsive font-weight-bold text-center my-5">We Know Sound</h2>
   <!-- Section description -->
-  <p class="lead grey-text text-center w-responsive mx-auto mb-5">Synema Studios has provided sound services for hundreds of projects,
-     from corporate reels to podcasts to musical albums. We have an ear (several, actually) for crafting highly-polished audio
-      experiences that stand out from the noise.</p>
+  <p class="lead grey-text text-center w-responsive mx-auto mb-5">Here at Synema Studios we understand that it takes more than good
+     video to make a project great, which is why we’ve gone out of our way to find talented audio engineers that will make your sounds
+      sing. We have the experience to cater to your audio needs, whether that’s sound for a corporate reel, recording a podcast, or
+       mastering an album. Our goal is to set your project apart from the noise.</p>
 
   <!-- Main Services -->
   <div class="row">
@@ -418,7 +420,7 @@ navigation_hidden = 0
   </div><!--/. Main Services -->
 
 </section>
-</div>";s:4:"code";N;s:7:"viewBag";a:5:{s:5:"title";s:14:"Audio Services";s:3:"url";s:15:"/audio-services";s:6:"layout";s:9:"noSidebar";s:9:"is_hidden";s:1:"0";s:17:"navigation_hidden";s:1:"0";}s:12:"parsedMarkup";s:7183:"<style>
+</div>";s:4:"code";N;s:7:"viewBag";a:5:{s:5:"title";s:14:"Audio Services";s:3:"url";s:15:"/audio-services";s:6:"layout";s:9:"noSidebar";s:9:"is_hidden";s:1:"0";s:17:"navigation_hidden";s:1:"0";}s:12:"parsedMarkup";s:7356:"<style>
 /* Carousel*/
 .carousel {
     height: 50%;
@@ -550,9 +552,10 @@ navigation_hidden = 0
   <!-- Section heading -->
   <h2 class="h1-responsive font-weight-bold text-center my-5">We Know Sound</h2>
   <!-- Section description -->
-  <p class="lead grey-text text-center w-responsive mx-auto mb-5">Synema Studios has provided sound services for hundreds of projects,
-     from corporate reels to podcasts to musical albums. We have an ear (several, actually) for crafting highly-polished audio
-      experiences that stand out from the noise.</p>
+  <p class="lead grey-text text-center w-responsive mx-auto mb-5">Here at Synema Studios we understand that it takes more than good
+     video to make a project great, which is why we’ve gone out of our way to find talented audio engineers that will make your sounds
+      sing. We have the experience to cater to your audio needs, whether that’s sound for a corporate reel, recording a podcast, or
+       mastering an album. Our goal is to set your project apart from the noise.</p>
 
   <!-- Main Services -->
   <div class="row">

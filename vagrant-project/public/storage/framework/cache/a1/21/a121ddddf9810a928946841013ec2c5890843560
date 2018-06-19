@@ -1,0 +1,234 @@
+1529318135a:1:{s:16:"all-projects.htm";a:7:{s:8:"fileName";s:16:"all-projects.htm";s:7:"content";s:2763:"[viewBag]
+title = "All Projects"
+url = "/all-projects"
+layout = "noSidebar"
+is_hidden = 0
+navigation_hidden = 0
+==
+<h2>PORTFOLIO</h2>
+<div id="myBtnContainer">
+  <button class="btn active" onclick="filterSelection('all')"> All Projects</button>
+  <button class="btn" onclick="filterSelection('internal')"> Internal Productions</button>
+  <button class="btn" onclick="filterSelection('external')"> External Clients</button>
+</div>
+
+<!-- Portfolio Gallery Grid -->
+<div class="row">
+  <div class="column internal">
+    <div class="content">
+      <img src="http://192.168.33.10/storage/app/media/Projects/katetectonics.jpg" alt="Girl looking out to snow covered mountains" style="width:100%">
+      <h4>Kate Tectonics</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+  <div class="column internal">
+    <div class="content">
+      <img src="http://192.168.33.10/storage/app/media/Projects/WIDRN.jpg" alt="Man excitedly hold a lot of cameras" style="width:100%">
+      <h4>WhatImDoingRightNow</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+  <div class="column internal">
+    <div class="content">
+      <img src="http://192.168.33.10/storage/app/media/Projects/filmwars.jpg" alt="Serious looking cinematographers" style="width:100%">
+      <h4>Film Wars</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+
+  <div class="column internal">
+    <div class="content">
+      <img src="http://192.168.33.10/storage/app/media/Projects/CTTT.jpg" alt="Go Pro Omni 3D camera on set" style="width:100%">
+      <h4>Cut To The Tech</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+  <div class="column internal">
+    <div class="content">
+      <img src="http://192.168.33.10/storage/app/media/Projects/quickLittleGetaway.jpg" alt="Woman taking a picture of Hidden Lake in Glacier National Park" style="width:100%">
+      <h4>Quick Little Getaway</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+  <div class="column internal">
+    <div class="content">
+      <img src="/w3images/cars3.jpg" alt="Car" style="width:100%">
+      <h4>Michael Aranda</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+
+  <div class="column people">
+    <div class="content">
+      <img src="/w3images/people1.jpg" alt="People" style="width:100%">
+      <h4>Girl</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+  <div class="column people">
+    <div class="content">
+      <img src="/w3images/people2.jpg" alt="People" style="width:100%">
+      <h4>Man</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+  <div class="column people">
+    <div class="content">
+      <img src="/w3images/people3.jpg" alt="People" style="width:100%">
+      <h4>Woman</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+<!-- END GRID -->
+</div>
+";s:5:"mtime";i:1529315032;s:6:"markup";s:2647:"<h2>PORTFOLIO</h2>
+<div id="myBtnContainer">
+  <button class="btn active" onclick="filterSelection('all')"> All Projects</button>
+  <button class="btn" onclick="filterSelection('internal')"> Internal Productions</button>
+  <button class="btn" onclick="filterSelection('external')"> External Clients</button>
+</div>
+
+<!-- Portfolio Gallery Grid -->
+<div class="row">
+  <div class="column internal">
+    <div class="content">
+      <img src="http://192.168.33.10/storage/app/media/Projects/katetectonics.jpg" alt="Girl looking out to snow covered mountains" style="width:100%">
+      <h4>Kate Tectonics</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+  <div class="column internal">
+    <div class="content">
+      <img src="http://192.168.33.10/storage/app/media/Projects/WIDRN.jpg" alt="Man excitedly hold a lot of cameras" style="width:100%">
+      <h4>WhatImDoingRightNow</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+  <div class="column internal">
+    <div class="content">
+      <img src="http://192.168.33.10/storage/app/media/Projects/filmwars.jpg" alt="Serious looking cinematographers" style="width:100%">
+      <h4>Film Wars</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+
+  <div class="column internal">
+    <div class="content">
+      <img src="http://192.168.33.10/storage/app/media/Projects/CTTT.jpg" alt="Go Pro Omni 3D camera on set" style="width:100%">
+      <h4>Cut To The Tech</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+  <div class="column internal">
+    <div class="content">
+      <img src="http://192.168.33.10/storage/app/media/Projects/quickLittleGetaway.jpg" alt="Woman taking a picture of Hidden Lake in Glacier National Park" style="width:100%">
+      <h4>Quick Little Getaway</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+  <div class="column internal">
+    <div class="content">
+      <img src="/w3images/cars3.jpg" alt="Car" style="width:100%">
+      <h4>Michael Aranda</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+
+  <div class="column people">
+    <div class="content">
+      <img src="/w3images/people1.jpg" alt="People" style="width:100%">
+      <h4>Girl</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+  <div class="column people">
+    <div class="content">
+      <img src="/w3images/people2.jpg" alt="People" style="width:100%">
+      <h4>Man</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+  <div class="column people">
+    <div class="content">
+      <img src="/w3images/people3.jpg" alt="People" style="width:100%">
+      <h4>Woman</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+<!-- END GRID -->
+</div>";s:4:"code";N;s:7:"viewBag";a:5:{s:5:"title";s:12:"All Projects";s:3:"url";s:13:"/all-projects";s:6:"layout";s:9:"noSidebar";s:9:"is_hidden";s:1:"0";s:17:"navigation_hidden";s:1:"0";}s:12:"parsedMarkup";s:2647:"<h2>PORTFOLIO</h2>
+<div id="myBtnContainer">
+  <button class="btn active" onclick="filterSelection('all')"> All Projects</button>
+  <button class="btn" onclick="filterSelection('internal')"> Internal Productions</button>
+  <button class="btn" onclick="filterSelection('external')"> External Clients</button>
+</div>
+
+<!-- Portfolio Gallery Grid -->
+<div class="row">
+  <div class="column internal">
+    <div class="content">
+      <img src="http://192.168.33.10/storage/app/media/Projects/katetectonics.jpg" alt="Girl looking out to snow covered mountains" style="width:100%">
+      <h4>Kate Tectonics</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+  <div class="column internal">
+    <div class="content">
+      <img src="http://192.168.33.10/storage/app/media/Projects/WIDRN.jpg" alt="Man excitedly hold a lot of cameras" style="width:100%">
+      <h4>WhatImDoingRightNow</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+  <div class="column internal">
+    <div class="content">
+      <img src="http://192.168.33.10/storage/app/media/Projects/filmwars.jpg" alt="Serious looking cinematographers" style="width:100%">
+      <h4>Film Wars</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+
+  <div class="column internal">
+    <div class="content">
+      <img src="http://192.168.33.10/storage/app/media/Projects/CTTT.jpg" alt="Go Pro Omni 3D camera on set" style="width:100%">
+      <h4>Cut To The Tech</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+  <div class="column internal">
+    <div class="content">
+      <img src="http://192.168.33.10/storage/app/media/Projects/quickLittleGetaway.jpg" alt="Woman taking a picture of Hidden Lake in Glacier National Park" style="width:100%">
+      <h4>Quick Little Getaway</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+  <div class="column internal">
+    <div class="content">
+      <img src="/w3images/cars3.jpg" alt="Car" style="width:100%">
+      <h4>Michael Aranda</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+
+  <div class="column people">
+    <div class="content">
+      <img src="/w3images/people1.jpg" alt="People" style="width:100%">
+      <h4>Girl</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+  <div class="column people">
+    <div class="content">
+      <img src="/w3images/people2.jpg" alt="People" style="width:100%">
+      <h4>Man</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+  <div class="column people">
+    <div class="content">
+      <img src="/w3images/people3.jpg" alt="People" style="width:100%">
+      <h4>Woman</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+<!-- END GRID -->
+</div>";}}

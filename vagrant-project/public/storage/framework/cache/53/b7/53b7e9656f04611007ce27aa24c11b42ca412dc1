@@ -1,4 +1,4 @@
-1528939570a:1:{s:11:"contact.htm";a:7:{s:8:"fileName";s:11:"contact.htm";s:7:"content";s:4544:"[viewBag]
+1529318135a:1:{s:11:"contact.htm";a:7:{s:8:"fileName";s:11:"contact.htm";s:7:"content";s:5639:"[viewBag]
 title = "Contact"
 url = "/contact"
 layout = "halfpageImage"
@@ -7,6 +7,40 @@ navigation_hidden = 0
 altText = "production lights"
 bgImageXSmall = "/kino2.jpg"
 ==
+<!-- Opening Modal on page load -->
+<script type="text/javascript">
+	$(document).ready(function(){
+		$("#promoModal").modal('show');
+	});
+</script>
+
+<!--Modal: modalYT-->
+<div class="modal fade" id="promoModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+
+        <!--Content-->
+        <div class="modal-content">
+
+            <!--Body-->
+            <div class="modal-body mb-0 p-0">
+
+                <img class="img-fluid" src="http://192.168.33.10/storage/app/media/Ads/packageSpecialFlyer.jpg" alt="$500 special for the summer">
+
+            </div>
+
+            <!--Footer-->
+            <div class="modal-footer justify-content-center flex-column">
+                <p class="center-text">Contact us about your project and mention this special!</p>
+                <button type="button" class="btn btn-outline-primary btn-rounded btn-md ml-4" data-dismiss="modal">Close</button>
+            </div>
+
+        </div>
+        <!--/.Content-->
+
+    </div>
+</div>
+
+
 <!-- Section: Contact v.1 -->
 <section class="my-5 section-heading">
 	<!-- Section heading -->
@@ -74,19 +108,19 @@ bgImageXSmall = "/kino2.jpg"
 			<br>
 			<!-- Buttons-->
 			<div class="row text-center">
-				<div class="col-md-4"><a class="btn-floating">&nbsp;<i class="fa fa-map-marker"></i>&nbsp;</a>
+				<div class="col-md-4"><a class="btn-floating"><i class="fa fa-map-marker" style="margin-top:1rem;"></i></a>
 
 					<p>500 N Higgins Ave, Suite 109</p>
 					<p>Missoula, MT 59802</p>
 
 				</div>
-				<div class="col-md-4"><a class="btn-floating">&nbsp;<i class="fa fa-phone"></i>&nbsp;</a>
+				<div class="col-md-4"><a class="btn-floating"><i class="fa fa-phone" style="margin-top:1rem;"></i></a>
 
 					<p>+ 01 888 609 1140</p>
 
 					<p class="mb-md-0">Mon - Thur, 10:00 - 8:00pm</p>
 				</div>
-				<div class="col-md-4"><a class="btn-floating">&nbsp;<i class="fa fa-envelope"></i>&nbsp;</a>
+				<div class="col-md-4"><a class="btn-floating"><i class="fa fa-envelope" style="margin-top:1rem;"></i></a>
 					<br>
 					<script type="text/javascript">
 					/*<![CDATA[*/
@@ -114,7 +148,41 @@ bgImageXSmall = "/kino2.jpg"
 	<!-- Grid row -->
 </section>
 <!-- Section: Contact v.1 -->
-";s:5:"mtime";i:1528743236;s:6:"markup";s:4374:"<!-- Section: Contact v.1 -->
+";s:5:"mtime";i:1529263936;s:6:"markup";s:5469:"<!-- Opening Modal on page load -->
+<script type="text/javascript">
+	$(document).ready(function(){
+		$("#promoModal").modal('show');
+	});
+</script>
+
+<!--Modal: modalYT-->
+<div class="modal fade" id="promoModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+
+        <!--Content-->
+        <div class="modal-content">
+
+            <!--Body-->
+            <div class="modal-body mb-0 p-0">
+
+                <img class="img-fluid" src="http://192.168.33.10/storage/app/media/Ads/packageSpecialFlyer.jpg" alt="$500 special for the summer">
+
+            </div>
+
+            <!--Footer-->
+            <div class="modal-footer justify-content-center flex-column">
+                <p class="center-text">Contact us about your project and mention this special!</p>
+                <button type="button" class="btn btn-outline-primary btn-rounded btn-md ml-4" data-dismiss="modal">Close</button>
+            </div>
+
+        </div>
+        <!--/.Content-->
+
+    </div>
+</div>
+
+
+<!-- Section: Contact v.1 -->
 <section class="my-5 section-heading">
 	<!-- Section heading -->
 
@@ -181,19 +249,19 @@ bgImageXSmall = "/kino2.jpg"
 			<br>
 			<!-- Buttons-->
 			<div class="row text-center">
-				<div class="col-md-4"><a class="btn-floating">&nbsp;<i class="fa fa-map-marker"></i>&nbsp;</a>
+				<div class="col-md-4"><a class="btn-floating"><i class="fa fa-map-marker" style="margin-top:1rem;"></i></a>
 
 					<p>500 N Higgins Ave, Suite 109</p>
 					<p>Missoula, MT 59802</p>
 
 				</div>
-				<div class="col-md-4"><a class="btn-floating">&nbsp;<i class="fa fa-phone"></i>&nbsp;</a>
+				<div class="col-md-4"><a class="btn-floating"><i class="fa fa-phone" style="margin-top:1rem;"></i></a>
 
 					<p>+ 01 888 609 1140</p>
 
 					<p class="mb-md-0">Mon - Thur, 10:00 - 8:00pm</p>
 				</div>
-				<div class="col-md-4"><a class="btn-floating">&nbsp;<i class="fa fa-envelope"></i>&nbsp;</a>
+				<div class="col-md-4"><a class="btn-floating"><i class="fa fa-envelope" style="margin-top:1rem;"></i></a>
 					<br>
 					<script type="text/javascript">
 					/*<![CDATA[*/
@@ -220,7 +288,41 @@ bgImageXSmall = "/kino2.jpg"
 	</div>
 	<!-- Grid row -->
 </section>
-<!-- Section: Contact v.1 -->";s:4:"code";N;s:7:"viewBag";a:7:{s:5:"title";s:7:"Contact";s:3:"url";s:8:"/contact";s:6:"layout";s:13:"halfpageImage";s:9:"is_hidden";s:1:"0";s:17:"navigation_hidden";s:1:"0";s:7:"altText";s:17:"production lights";s:13:"bgImageXSmall";s:10:"/kino2.jpg";}s:12:"parsedMarkup";s:4374:"<!-- Section: Contact v.1 -->
+<!-- Section: Contact v.1 -->";s:4:"code";N;s:7:"viewBag";a:7:{s:5:"title";s:7:"Contact";s:3:"url";s:8:"/contact";s:6:"layout";s:13:"halfpageImage";s:9:"is_hidden";s:1:"0";s:17:"navigation_hidden";s:1:"0";s:7:"altText";s:17:"production lights";s:13:"bgImageXSmall";s:10:"/kino2.jpg";}s:12:"parsedMarkup";s:5469:"<!-- Opening Modal on page load -->
+<script type="text/javascript">
+	$(document).ready(function(){
+		$("#promoModal").modal('show');
+	});
+</script>
+
+<!--Modal: modalYT-->
+<div class="modal fade" id="promoModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+
+        <!--Content-->
+        <div class="modal-content">
+
+            <!--Body-->
+            <div class="modal-body mb-0 p-0">
+
+                <img class="img-fluid" src="http://192.168.33.10/storage/app/media/Ads/packageSpecialFlyer.jpg" alt="$500 special for the summer">
+
+            </div>
+
+            <!--Footer-->
+            <div class="modal-footer justify-content-center flex-column">
+                <p class="center-text">Contact us about your project and mention this special!</p>
+                <button type="button" class="btn btn-outline-primary btn-rounded btn-md ml-4" data-dismiss="modal">Close</button>
+            </div>
+
+        </div>
+        <!--/.Content-->
+
+    </div>
+</div>
+
+
+<!-- Section: Contact v.1 -->
 <section class="my-5 section-heading">
 	<!-- Section heading -->
 
@@ -287,19 +389,19 @@ bgImageXSmall = "/kino2.jpg"
 			<br>
 			<!-- Buttons-->
 			<div class="row text-center">
-				<div class="col-md-4"><a class="btn-floating">&nbsp;<i class="fa fa-map-marker"></i>&nbsp;</a>
+				<div class="col-md-4"><a class="btn-floating"><i class="fa fa-map-marker" style="margin-top:1rem;"></i></a>
 
 					<p>500 N Higgins Ave, Suite 109</p>
 					<p>Missoula, MT 59802</p>
 
 				</div>
-				<div class="col-md-4"><a class="btn-floating">&nbsp;<i class="fa fa-phone"></i>&nbsp;</a>
+				<div class="col-md-4"><a class="btn-floating"><i class="fa fa-phone" style="margin-top:1rem;"></i></a>
 
 					<p>+ 01 888 609 1140</p>
 
 					<p class="mb-md-0">Mon - Thur, 10:00 - 8:00pm</p>
 				</div>
-				<div class="col-md-4"><a class="btn-floating">&nbsp;<i class="fa fa-envelope"></i>&nbsp;</a>
+				<div class="col-md-4"><a class="btn-floating"><i class="fa fa-envelope" style="margin-top:1rem;"></i></a>
 					<br>
 					<script type="text/javascript">
 					/*<![CDATA[*/

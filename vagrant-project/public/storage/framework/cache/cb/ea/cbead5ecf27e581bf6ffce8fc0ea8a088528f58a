@@ -1,58 +1,11 @@
-1528913333a:1:{s:16:"teamProfiles.htm";a:7:{s:8:"fileName";s:16:"teamProfiles.htm";s:7:"content";s:12176:"description = "Team Profiles"
+1529318614a:1:{s:16:"teamProfiles.htm";a:7:{s:8:"fileName";s:16:"teamProfiles.htm";s:7:"content";s:9860:"description = "Team Profiles"
 
 [staticPage]
 useContent = 1
 default = 0
 ==
-<?php
-function onStart()
-{
-    $this->addCss('assets/css/fullImageBg.css');
-}
-?>
-==
 {% partial 'site/head' %}
 {% partial 'site/scrollingNavbar' %}
-
-{variable name="introTitle" label="Intro Title (no accent)" tab="Intro" type="text"}{/variable}
-{variable name="introTitleAccent" label="Intro Title (accent)" tab="Intro" type="text"}{/variable}
-{variable name="introTitle2" label="Intro Title 2 (no accent)" tab="Intro" type="text"}{/variable}
-{variable name="tagline" label="Tagline" tab="Intro" type="text"}{/variable}
-{variable name="btn1Text" label="Button 1 Text" tab="Intro" type="text"}{/variable}
-{variable name="btn1Link" label="Button 1 Link" tab="Intro" type="text"}{/variable}
-{variable name="btn2Text" label="Button 2 Text" tab="Intro" type="text"}{/variable}
-{variable name="btn2Link" label="Button 2 Link" tab="Intro" type="text"}{/variable}
-{variable name="altText" label="Image Alternate Text" tab="Intro" type="text"}{/variable}
-{variable name="bgImageXLarge" label="Background Image XLarge (2880px width)" tab="Intro" type="mediafinder" mode="image"}{/variable}
-{variable name="bgImageLarge" label="Background Image Large (1600px wide)" tab="Intro" type="mediafinder" mode="image"}{/variable}
-{variable name="bgImageXSmall" label="Background Image XSmall/Mobile (750px x 1313px)" tab="Intro" type="mediafinder" mode="image"}{/variable}
-
-
-<!--Mask-->
-<div class="view hm-black-light">
-  <img src="{{ bgImageLarge|media }}"
-    srcset="
-      {{ bgImageXSmall|media }} 750w,
-      {{ bgImageXLarge|media }} 2880w"
-    sizes="100vw"
-    alt="{{ altText }}"
-    class="full-width" >
-
-    <div id="synemaAccent" class="full-bg-img flex-center">
-        <ul class="animated fadeInUp">
-            <li>
-                <h1 class="display-3 mb-4 font-bold underlined">{{ introTitle }}<span style="color: #da1f27"> {{ introTitleAccent }} </span>{{ introTitle2 }}</h1></li>
-            <li>
-                <h3 class="mb-5">{{ tagline }}</h3>
-            </li>
-            <li>
-                {% if fields.btn1Text != '' %}<a target="_blank" href="{{ btn1Link }}" class="btn btn-primary btn-lg" rel="nofollow">{{ btn1Text }}</a>{% endif%}
-                {% if fields.btn2Text != '' %}<a target="_blank" href="{{ btn2Link }}" class="btn btn-outline-white btn-lg" rel="nofollow">{{ btn2Text }}</a>{% endif%}
-            </li>
-        </ul>
-    </div>
-</div>
-<!--/.Mask-->
 
 <!-- Content -->
 <div>
@@ -219,48 +172,8 @@ function onStart()
 </div>
 
 {% partial 'site/footer' %}
-";s:5:"mtime";i:1528234195;s:6:"markup";s:12017:"{% partial 'site/head' %}
+";s:5:"mtime";i:1529317919;s:6:"markup";s:9785:"{% partial 'site/head' %}
 {% partial 'site/scrollingNavbar' %}
-
-{variable name="introTitle" label="Intro Title (no accent)" tab="Intro" type="text"}{/variable}
-{variable name="introTitleAccent" label="Intro Title (accent)" tab="Intro" type="text"}{/variable}
-{variable name="introTitle2" label="Intro Title 2 (no accent)" tab="Intro" type="text"}{/variable}
-{variable name="tagline" label="Tagline" tab="Intro" type="text"}{/variable}
-{variable name="btn1Text" label="Button 1 Text" tab="Intro" type="text"}{/variable}
-{variable name="btn1Link" label="Button 1 Link" tab="Intro" type="text"}{/variable}
-{variable name="btn2Text" label="Button 2 Text" tab="Intro" type="text"}{/variable}
-{variable name="btn2Link" label="Button 2 Link" tab="Intro" type="text"}{/variable}
-{variable name="altText" label="Image Alternate Text" tab="Intro" type="text"}{/variable}
-{variable name="bgImageXLarge" label="Background Image XLarge (2880px width)" tab="Intro" type="mediafinder" mode="image"}{/variable}
-{variable name="bgImageLarge" label="Background Image Large (1600px wide)" tab="Intro" type="mediafinder" mode="image"}{/variable}
-{variable name="bgImageXSmall" label="Background Image XSmall/Mobile (750px x 1313px)" tab="Intro" type="mediafinder" mode="image"}{/variable}
-
-
-<!--Mask-->
-<div class="view hm-black-light">
-  <img src="{{ bgImageLarge|media }}"
-    srcset="
-      {{ bgImageXSmall|media }} 750w,
-      {{ bgImageXLarge|media }} 2880w"
-    sizes="100vw"
-    alt="{{ altText }}"
-    class="full-width" >
-
-    <div id="synemaAccent" class="full-bg-img flex-center">
-        <ul class="animated fadeInUp">
-            <li>
-                <h1 class="display-3 mb-4 font-bold underlined">{{ introTitle }}<span style="color: #da1f27"> {{ introTitleAccent }} </span>{{ introTitle2 }}</h1></li>
-            <li>
-                <h3 class="mb-5">{{ tagline }}</h3>
-            </li>
-            <li>
-                {% if fields.btn1Text != '' %}<a target="_blank" href="{{ btn1Link }}" class="btn btn-primary btn-lg" rel="nofollow">{{ btn1Text }}</a>{% endif%}
-                {% if fields.btn2Text != '' %}<a target="_blank" href="{{ btn2Link }}" class="btn btn-outline-white btn-lg" rel="nofollow">{{ btn2Text }}</a>{% endif%}
-            </li>
-        </ul>
-    </div>
-</div>
-<!--/.Mask-->
 
 <!-- Content -->
 <div>
@@ -426,7 +339,4 @@ function onStart()
     </div>
 </div>
 
-{% partial 'site/footer' %}";s:4:"code";s:71:"function onStart()
-{
-    $this->addCss('assets/css/fullImageBg.css');
-}";s:11:"description";s:13:"Team Profiles";s:10:"staticPage";a:2:{s:10:"useContent";s:1:"1";s:7:"default";s:1:"0";}}}
+{% partial 'site/footer' %}";s:4:"code";N;s:11:"description";s:13:"Team Profiles";s:10:"staticPage";a:2:{s:10:"useContent";s:1:"1";s:7:"default";s:1:"0";}}}

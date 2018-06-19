@@ -1,180 +1,9 @@
-1528939571a:1:{s:8:"team.htm";a:7:{s:8:"fileName";s:8:"team.htm";s:7:"content";s:11461:"[viewBag]
+1529318135a:1:{s:8:"team.htm";a:7:{s:8:"fileName";s:8:"team.htm";s:7:"content";s:903:"[viewBag]
 title = "About Us"
-url = "/team"
-layout = "teamProfiles"
+url = "/about-us"
+layout = "noSidebar"
 is_hidden = 0
 navigation_hidden = 0
-introTitle = "about us"
-altText = "group photo"
-bgImageXLarge = "/About/about-2880.jpg"
-bgImageLarge = "/About/about-ipad.jpg"
-bgImageXSmall = "/About/about-mobile-min.jpg"
-Profiles[0][profileName] = "Michael Aranda"
-Profiles[0][profileTitle] = "Chief Executive Officer"
-Profiles[0][profileImage] = "/About/michaela-min.jpg"
-Profiles[0][profileBio] = "<p>Michael Aranda has worked in film and new media for over 15 years, bootstrapping successful projects like SciShow, Crash Course, The Lizzie Bennet Diaries, and The Brain Scoop. He’s worked with high-profile clients such as Ford, Microsoft, Macmillan, and LEGO, and has channeled his talent and experience into creating a company second-to-none in craftsmanship, attention to detail, and execution.</p>"
-Profiles[0][profileEducation] = "<p>Film and Video Production – Emphasis in Directing and Screenwriting, Brooks Institute</p>"
-Profiles[0][profileSkills1] = "Directing"
-Profiles[0][profileSkills1Level] = 85
-Profiles[0][profileSkills2] = "Cinematography"
-Profiles[0][profileSkills2Level] = 98
-Profiles[0][profileSkills3] = "Music Composition"
-Profiles[0][profileSkills3Level] = 90
-Profiles[0][profileSkills4] = "Eating Hamburgers"
-Profiles[0][profileSkills4Level] = 99
-Profiles[1][profileName] = "Abi Rein"
-Profiles[1][profileTitle] = "Chief Operating Officer"
-Profiles[1][profileImage] = "/About/abi-min.jpg"
-Profiles[1][profileBio] = "<p>Abi is a transplant from the east coast with a passion for science and people. If there was a Venn Diagram of cat people vs. dog people, she’d be in the middle (though heavily skewed towards cats). Every day there is something new to learn and one day she will succeed in her quest for the world’s greatest pun.</p>"
-Profiles[1][profileEducation] = "<p>B.S. in Biological Sciences, University of Maryland Baltimore County</p>
-
-<p>B.S. in Psychology, University of Maryland Baltimore County</p>
-
-<p>M.A.T. in Secondary STEM Education, Stevenson University</p>"
-Profiles[1][profileSkills1] = "Science Communication and Writing"
-Profiles[1][profileSkills1Level] = 89
-Profiles[1][profileSkills2] = "Lesson Planning"
-Profiles[1][profileSkills2Level] = 85
-Profiles[1][profileSkills3] = "Team Leadership"
-Profiles[1][profileSkills3Level] = 93
-Profiles[1][profileSkills4] = "Having Lots Of Degrees"
-Profiles[1][profileSkills4Level] = 95
-Profiles[2][profileName] = "Michael Morgan"
-Profiles[2][profileTitle] = "Chief Financial Officer"
-Profiles[2][profileImage] = "/About/michaelm-min.jpg"
-Profiles[2][profileBio] = "<p>Michael is a Korthals Wirehaired Pointing Griffon enthusiast with a passion for business management.</p>"
-Profiles[2][profileEducation] = "<p>B.S., U.S. Naval Academy</p>
-
-<p>M.B.A., Vanderbilt University – Owen</p>"
-Profiles[2][profileSkills1] = "Quickbooks"
-Profiles[2][profileSkills1Level] = 95
-Profiles[2][profileSkills2] = "Contract Management"
-Profiles[2][profileSkills2Level] = 92
-Profiles[2][profileSkills3] = "Grant Writing & Administration"
-Profiles[2][profileSkills3Level] = 93
-Profiles[2][profileSkills4] = "Negotiating"
-Profiles[2][profileSkills4Level] = 98
-Profiles[3][profileName] = "Todd Williams"
-Profiles[3][profileTitle] = "Chief Marketing Officer"
-Profiles[3][profileImage] = "/About/todd-min.jpg"
-Profiles[3][profileBio] = "<p>Todd is an award winning writer/producer, YouTube personality, and marketing guru.</p>"
-Profiles[3][profileEducation] = "<p>Multimedia and Studio Production, TDC – Ventura</p>"
-Profiles[3][profileSkills1] = "Customer Service"
-Profiles[3][profileSkills1Level] = 88
-Profiles[3][profileSkills2] = "Lead Generation"
-Profiles[3][profileSkills2Level] = 89
-Profiles[3][profileSkills3] = "Charisma"
-Profiles[3][profileSkills3Level] = 98
-Profiles[3][profileSkills4] = "Having a Beard"
-Profiles[3][profileSkills4Level] = 100
-Profiles[4][profileName] = "Katelyn Salem"
-Profiles[4][profileTitle] = "Video Editor | Web Developer"
-Profiles[4][profileImage] = "/katelyn.jpg"
-Profiles[4][profileBio] = "<p>Originally from The Great Lakes State, Katelyn has moved around the country in pursuit of discovering which of her many interests she is interested in the most, and has so far failed. She sees herself as a definite jack-of-all-trades, master of none.</p>"
-Profiles[4][profileEducation] = "<p>B.S. in Geoscience, The University of Montana</p>
-
-<p>Computer Science, The University of Montana</p>"
-Profiles[4][profileSkills1] = "Adobe Premiere Pro"
-Profiles[4][profileSkills1Level] = 93
-Profiles[4][profileSkills2] = "Front-end Website Development"
-Profiles[4][profileSkills2Level] = 80
-Profiles[4][profileSkills3] = "Back-end Website Development"
-Profiles[4][profileSkills3Level] = 65
-Profiles[4][profileSkills4] = "Building Things"
-Profiles[4][profileSkills4Level] = 82
-Profiles[5][profileName] = "Callie Dishman"
-Profiles[5][profileTitle] = "Audio Engineer"
-Profiles[5][profileImage] = "/About/callie-min.jpg"
-Profiles[5][profileBio] = "<p>Callie makes stuff sound good and does other stuff good too. Her love of good food is only surpassed by her love of good stories. Her entire personality can be reduced to the salsa dancing emoji. I’m just happy to be here.</p>"
-Profiles[5][profileEducation] = "<p>B.A. in Audio Production, Webster University</p>"
-Profiles[5][profileSkills1] = "Sound Design"
-Profiles[5][profileSkills1Level] = 95
-Profiles[5][profileSkills2] = "Sound Mixing"
-Profiles[5][profileSkills2Level] = 86
-Profiles[5][profileSkills3] = "Audio Recording"
-Profiles[5][profileSkills3Level] = 92
-Profiles[5][profileSkills4] = "Playing The Kazoo"
-Profiles[5][profileSkills4Level] = 60
-Profiles[6][profileName] = "Josh Taira"
-Profiles[6][profileTitle] = "Illustrator | Animator"
-Profiles[6][profileImage] = "/About/josh-min.jpg"
-Profiles[6][profileBio] = "<p>Despite what the actual job title says, Josh Taira is a full-time weeb with a specialty in Slice of Life. He once made the mistake of buying button-fly jeans and still kind of regrets the purchase. He also believes that animation is the pinnacle of creativity and expression and will die on that hill.</p>"
-Profiles[6][profileEducation] = "<p>B.F.A, Fine Art - Emphasis in Printmaking, The University of Montana</p>"
-Profiles[6][profileSkills1] = "Adobe Illustrator"
-Profiles[6][profileSkills1Level] = 93
-Profiles[6][profileSkills2] = "Adobe Photoshop"
-Profiles[6][profileSkills2Level] = 90
-Profiles[6][profileSkills3] = "Screen Printing"
-Profiles[6][profileSkills3Level] = 82
-Profiles[6][profileSkills4] = "Drawing The Same Face The Same Way Really Well"
-Profiles[6][profileSkills4Level] = 87
-Profiles[7][profileName] = "Kyla Pyne"
-Profiles[7][profileTitle] = "Social Media and Community Manager"
-Profiles[7][profileImage] = "/About/kyla-min.jpg"
-Profiles[7][profileBio] = "<p>Kyla is known for her love of cats, wine, pineapples, and Zac Efron. She aspires to one day get her own reality TV show for doing nothing particularly special.</p>"
-Profiles[7][profileEducation] = ""
-Profiles[7][profileSkills1] = "Online Community Management"
-Profiles[7][profileSkills1Level] = 97
-Profiles[7][profileSkills2] = "Organizing Social Community Campaigns"
-Profiles[7][profileSkills2Level] = 89
-Profiles[7][profileSkills3] = "Team Leadership"
-Profiles[7][profileSkills3Level] = 90
-Profiles[7][profileSkills4] = "Being A Pineapple"
-Profiles[7][profileSkills4Level] = 55
-Profiles[8][profileName] = "Halisia Hubbard"
-Profiles[8][profileTitle] = "Illustrator | Animator"
-Profiles[8][profileImage] = "/About/halisia-min.jpg"
-Profiles[8][profileBio] = "<p>Halisia is a super-super-senior at The University of Montana. Every once in a while, she releases an issue of her personal zine, “Latterly,” and her contributor-based zine, “Brine.” Halisia likes to build stories, so she thinks comics and animation are the coolest.</p>"
-Profiles[8][profileEducation] = "<p>Fine Arts and Journalism, The University of Montana</p>"
-Profiles[8][profileSkills1] = "Illustration"
-Profiles[8][profileSkills1Level] = 98
-Profiles[8][profileSkills2] = "Adobe Photoshop"
-Profiles[8][profileSkills2Level] = 90
-Profiles[8][profileSkills3] = "Adobe Illustrator"
-Profiles[8][profileSkills3Level] = 86
-Profiles[8][profileSkills4] = "Making Zines"
-Profiles[8][profileSkills4Level] = 95
-Profiles[9][profileName] = "Nancy Bevins"
-Profiles[9][profileTitle] = "Client Relationship Manager"
-Profiles[9][profileImage] = "/About/nancy-min.jpg"
-Profiles[9][profileBio] = "<p>Nancy Norton Bevins is an awarded writer and producer in independent films including on the team for Academy Award winning THE ARTIST. Having produced over thirty features, shorts, docs, industrials and theatrical plays she embraces creative expression.</p>"
-Profiles[9][profileEducation] = "<p>M.F.A, Loyola Marymount University</p>
-
-<p>Writing Certificates, University of California</p>"
-Profiles[9][profileSkills1] = "Marketing"
-Profiles[9][profileSkills1Level] = 95
-Profiles[9][profileSkills2] = "Lead Generation"
-Profiles[9][profileSkills2Level] = 95
-Profiles[9][profileSkills3] = "Charisma"
-Profiles[9][profileSkills3Level] = 92
-Profiles[9][profileSkills4] = "Wearing Fancy Jackets"
-Profiles[9][profileSkills4Level] = 99
-Profiles[10][profileName] = "Logan George"
-Profiles[10][profileTitle] = "Office Assistant"
-Profiles[10][profileImage] = "/About/logan-min.jpg"
-Profiles[10][profileBio] = "<p>Logan is known for her good jokes, good hair, and good pupper.</p>"
-Profiles[10][profileEducation] = "<p>Cedar Hall School – Christiana Tennessee</p>"
-Profiles[10][profileSkills1] = "Adobe Premiere Pro"
-Profiles[10][profileSkills1Level] = 92
-Profiles[10][profileSkills2] = "Adobe After Effects"
-Profiles[10][profileSkills2Level] = 90
-Profiles[10][profileSkills3] = "Adobe Illustrator"
-Profiles[10][profileSkills3Level] = 82
-Profiles[10][profileSkills4] = "Knowing About Apple Products"
-Profiles[10][profileSkills4Level] = 90
-Profiles[11][profileName] = "Juno George"
-Profiles[11][profileTitle] = "Emotional Stability Officer"
-Profiles[11][profileImage] = "/About/juno-min.jpg"
-Profiles[11][profileBio] = "<p>Juno is a year and a half old and likes to eat snow. She enjoys long naps and watching Supernatural, in which her favorite character is Sam.</p>"
-Profiles[11][profileEducation] = "<p>Sitting &amp; Spinning, Logan George Academy</p>"
-Profiles[11][profileSkills1] = "Cuddling"
-Profiles[11][profileSkills1Level] = 85
-Profiles[11][profileSkills2] = "Licking"
-Profiles[11][profileSkills2Level] = 100
-Profiles[11][profileSkills3] = "Staring"
-Profiles[11][profileSkills3Level] = 90
-Profiles[11][profileSkills4] = "Comforting The Stressful Humans"
-Profiles[11][profileSkills4Level] = 88
 ==
 <div class="section-heading">
 
@@ -190,7 +19,7 @@ Profiles[11][profileSkills4Level] = 88
 		<br>
 		<br>
 	</p>
-</div>";s:5:"mtime";i:1528234001;s:6:"markup";s:796:"<div class="section-heading">
+</div>";s:5:"mtime";i:1529317264;s:6:"markup";s:796:"<div class="section-heading">
 
 	<h1><span>Who We Are</span></h1>
 </div>
@@ -204,17 +33,7 @@ Profiles[11][profileSkills4Level] = 88
 		<br>
 		<br>
 	</p>
-</div>";s:4:"code";N;s:7:"viewBag";a:11:{s:5:"title";s:8:"About Us";s:3:"url";s:5:"/team";s:6:"layout";s:12:"teamProfiles";s:9:"is_hidden";s:1:"0";s:17:"navigation_hidden";s:1:"0";s:10:"introTitle";s:8:"about us";s:7:"altText";s:11:"group photo";s:13:"bgImageXLarge";s:21:"/About/about-2880.jpg";s:12:"bgImageLarge";s:21:"/About/about-ipad.jpg";s:13:"bgImageXSmall";s:27:"/About/about-mobile-min.jpg";s:8:"Profiles";a:12:{i:0;a:13:{s:11:"profileName";s:14:"Michael Aranda";s:12:"profileTitle";s:23:"Chief Executive Officer";s:12:"profileImage";s:23:"/About/michaela-min.jpg";s:10:"profileBio";s:406:"<p>Michael Aranda has worked in film and new media for over 15 years, bootstrapping successful projects like SciShow, Crash Course, The Lizzie Bennet Diaries, and The Brain Scoop. He’s worked with high-profile clients such as Ford, Microsoft, Macmillan, and LEGO, and has channeled his talent and experience into creating a company second-to-none in craftsmanship, attention to detail, and execution.</p>";s:16:"profileEducation";s:94:"<p>Film and Video Production – Emphasis in Directing and Screenwriting, Brooks Institute</p>";s:14:"profileSkills1";s:9:"Directing";s:19:"profileSkills1Level";s:2:"85";s:14:"profileSkills2";s:14:"Cinematography";s:19:"profileSkills2Level";s:2:"98";s:14:"profileSkills3";s:17:"Music Composition";s:19:"profileSkills3Level";s:2:"90";s:14:"profileSkills4";s:17:"Eating Hamburgers";s:19:"profileSkills4Level";s:2:"99";}i:1;a:13:{s:11:"profileName";s:8:"Abi Rein";s:12:"profileTitle";s:23:"Chief Operating Officer";s:12:"profileImage";s:18:"/About/abi-min.jpg";s:10:"profileBio";s:322:"<p>Abi is a transplant from the east coast with a passion for science and people. If there was a Venn Diagram of cat people vs. dog people, she’d be in the middle (though heavily skewed towards cats). Every day there is something new to learn and one day she will succeed in her quest for the world’s greatest pun.</p>";s:16:"profileEducation";s:208:"<p>B.S. in Biological Sciences, University of Maryland Baltimore County</p>
-
-<p>B.S. in Psychology, University of Maryland Baltimore County</p>
-
-<p>M.A.T. in Secondary STEM Education, Stevenson University</p>";s:14:"profileSkills1";s:33:"Science Communication and Writing";s:19:"profileSkills1Level";s:2:"89";s:14:"profileSkills2";s:15:"Lesson Planning";s:19:"profileSkills2Level";s:2:"85";s:14:"profileSkills3";s:15:"Team Leadership";s:19:"profileSkills3Level";s:2:"93";s:14:"profileSkills4";s:22:"Having Lots Of Degrees";s:19:"profileSkills4Level";s:2:"95";}i:2;a:13:{s:11:"profileName";s:14:"Michael Morgan";s:12:"profileTitle";s:23:"Chief Financial Officer";s:12:"profileImage";s:23:"/About/michaelm-min.jpg";s:10:"profileBio";s:107:"<p>Michael is a Korthals Wirehaired Pointing Griffon enthusiast with a passion for business management.</p>";s:16:"profileEducation";s:78:"<p>B.S., U.S. Naval Academy</p>
-
-<p>M.B.A., Vanderbilt University – Owen</p>";s:14:"profileSkills1";s:10:"Quickbooks";s:19:"profileSkills1Level";s:2:"95";s:14:"profileSkills2";s:19:"Contract Management";s:19:"profileSkills2Level";s:2:"92";s:14:"profileSkills3";s:30:"Grant Writing & Administration";s:19:"profileSkills3Level";s:2:"93";s:14:"profileSkills4";s:11:"Negotiating";s:19:"profileSkills4Level";s:2:"98";}i:3;a:13:{s:11:"profileName";s:13:"Todd Williams";s:12:"profileTitle";s:23:"Chief Marketing Officer";s:12:"profileImage";s:19:"/About/todd-min.jpg";s:10:"profileBio";s:89:"<p>Todd is an award winning writer/producer, YouTube personality, and marketing guru.</p>";s:16:"profileEducation";s:56:"<p>Multimedia and Studio Production, TDC – Ventura</p>";s:14:"profileSkills1";s:16:"Customer Service";s:19:"profileSkills1Level";s:2:"88";s:14:"profileSkills2";s:15:"Lead Generation";s:19:"profileSkills2Level";s:2:"89";s:14:"profileSkills3";s:8:"Charisma";s:19:"profileSkills3Level";s:2:"98";s:14:"profileSkills4";s:14:"Having a Beard";s:19:"profileSkills4Level";s:3:"100";}i:4;a:13:{s:11:"profileName";s:13:"Katelyn Salem";s:12:"profileTitle";s:28:"Video Editor | Web Developer";s:12:"profileImage";s:12:"/katelyn.jpg";s:10:"profileBio";s:257:"<p>Originally from The Great Lakes State, Katelyn has moved around the country in pursuit of discovering which of her many interests she is interested in the most, and has so far failed. She sees herself as a definite jack-of-all-trades, master of none.</p>";s:16:"profileEducation";s:104:"<p>B.S. in Geoscience, The University of Montana</p>
-
-<p>Computer Science, The University of Montana</p>";s:14:"profileSkills1";s:18:"Adobe Premiere Pro";s:19:"profileSkills1Level";s:2:"93";s:14:"profileSkills2";s:29:"Front-end Website Development";s:19:"profileSkills2Level";s:2:"80";s:14:"profileSkills3";s:28:"Back-end Website Development";s:19:"profileSkills3Level";s:2:"65";s:14:"profileSkills4";s:15:"Building Things";s:19:"profileSkills4Level";s:2:"82";}i:5;a:13:{s:11:"profileName";s:14:"Callie Dishman";s:12:"profileTitle";s:14:"Audio Engineer";s:12:"profileImage";s:21:"/About/callie-min.jpg";s:10:"profileBio";s:231:"<p>Callie makes stuff sound good and does other stuff good too. Her love of good food is only surpassed by her love of good stories. Her entire personality can be reduced to the salsa dancing emoji. I’m just happy to be here.</p>";s:16:"profileEducation";s:51:"<p>B.A. in Audio Production, Webster University</p>";s:14:"profileSkills1";s:12:"Sound Design";s:19:"profileSkills1Level";s:2:"95";s:14:"profileSkills2";s:12:"Sound Mixing";s:19:"profileSkills2Level";s:2:"86";s:14:"profileSkills3";s:15:"Audio Recording";s:19:"profileSkills3Level";s:2:"92";s:14:"profileSkills4";s:17:"Playing The Kazoo";s:19:"profileSkills4Level";s:2:"60";}i:6;a:13:{s:11:"profileName";s:10:"Josh Taira";s:12:"profileTitle";s:22:"Illustrator | Animator";s:12:"profileImage";s:19:"/About/josh-min.jpg";s:10:"profileBio";s:308:"<p>Despite what the actual job title says, Josh Taira is a full-time weeb with a specialty in Slice of Life. He once made the mistake of buying button-fly jeans and still kind of regrets the purchase. He also believes that animation is the pinnacle of creativity and expression and will die on that hill.</p>";s:16:"profileEducation";s:75:"<p>B.F.A, Fine Art - Emphasis in Printmaking, The University of Montana</p>";s:14:"profileSkills1";s:17:"Adobe Illustrator";s:19:"profileSkills1Level";s:2:"93";s:14:"profileSkills2";s:15:"Adobe Photoshop";s:19:"profileSkills2Level";s:2:"90";s:14:"profileSkills3";s:15:"Screen Printing";s:19:"profileSkills3Level";s:2:"82";s:14:"profileSkills4";s:46:"Drawing The Same Face The Same Way Really Well";s:19:"profileSkills4Level";s:2:"87";}i:7;a:13:{s:11:"profileName";s:9:"Kyla Pyne";s:12:"profileTitle";s:34:"Social Media and Community Manager";s:12:"profileImage";s:19:"/About/kyla-min.jpg";s:10:"profileBio";s:166:"<p>Kyla is known for her love of cats, wine, pineapples, and Zac Efron. She aspires to one day get her own reality TV show for doing nothing particularly special.</p>";s:16:"profileEducation";s:0:"";s:14:"profileSkills1";s:27:"Online Community Management";s:19:"profileSkills1Level";s:2:"97";s:14:"profileSkills2";s:37:"Organizing Social Community Campaigns";s:19:"profileSkills2Level";s:2:"89";s:14:"profileSkills3";s:15:"Team Leadership";s:19:"profileSkills3Level";s:2:"90";s:14:"profileSkills4";s:17:"Being A Pineapple";s:19:"profileSkills4Level";s:2:"55";}i:8;a:13:{s:11:"profileName";s:15:"Halisia Hubbard";s:12:"profileTitle";s:22:"Illustrator | Animator";s:12:"profileImage";s:22:"/About/halisia-min.jpg";s:10:"profileBio";s:280:"<p>Halisia is a super-super-senior at The University of Montana. Every once in a while, she releases an issue of her personal zine, “Latterly,” and her contributor-based zine, “Brine.” Halisia likes to build stories, so she thinks comics and animation are the coolest.</p>";s:16:"profileEducation";s:58:"<p>Fine Arts and Journalism, The University of Montana</p>";s:14:"profileSkills1";s:12:"Illustration";s:19:"profileSkills1Level";s:2:"98";s:14:"profileSkills2";s:15:"Adobe Photoshop";s:19:"profileSkills2Level";s:2:"90";s:14:"profileSkills3";s:17:"Adobe Illustrator";s:19:"profileSkills3Level";s:2:"86";s:14:"profileSkills4";s:12:"Making Zines";s:19:"profileSkills4Level";s:2:"95";}i:9;a:13:{s:11:"profileName";s:12:"Nancy Bevins";s:12:"profileTitle";s:27:"Client Relationship Manager";s:12:"profileImage";s:20:"/About/nancy-min.jpg";s:10:"profileBio";s:260:"<p>Nancy Norton Bevins is an awarded writer and producer in independent films including on the team for Academy Award winning THE ARTIST. Having produced over thirty features, shorts, docs, industrials and theatrical plays she embraces creative expression.</p>";s:16:"profileEducation";s:96:"<p>M.F.A, Loyola Marymount University</p>
-
-<p>Writing Certificates, University of California</p>";s:14:"profileSkills1";s:9:"Marketing";s:19:"profileSkills1Level";s:2:"95";s:14:"profileSkills2";s:15:"Lead Generation";s:19:"profileSkills2Level";s:2:"95";s:14:"profileSkills3";s:8:"Charisma";s:19:"profileSkills3Level";s:2:"92";s:14:"profileSkills4";s:21:"Wearing Fancy Jackets";s:19:"profileSkills4Level";s:2:"99";}i:10;a:13:{s:11:"profileName";s:12:"Logan George";s:12:"profileTitle";s:16:"Office Assistant";s:12:"profileImage";s:20:"/About/logan-min.jpg";s:10:"profileBio";s:69:"<p>Logan is known for her good jokes, good hair, and good pupper.</p>";s:16:"profileEducation";s:49:"<p>Cedar Hall School – Christiana Tennessee</p>";s:14:"profileSkills1";s:18:"Adobe Premiere Pro";s:19:"profileSkills1Level";s:2:"92";s:14:"profileSkills2";s:19:"Adobe After Effects";s:19:"profileSkills2Level";s:2:"90";s:14:"profileSkills3";s:17:"Adobe Illustrator";s:19:"profileSkills3Level";s:2:"82";s:14:"profileSkills4";s:28:"Knowing About Apple Products";s:19:"profileSkills4Level";s:2:"90";}i:11;a:13:{s:11:"profileName";s:11:"Juno George";s:12:"profileTitle";s:27:"Emotional Stability Officer";s:12:"profileImage";s:19:"/About/juno-min.jpg";s:10:"profileBio";s:147:"<p>Juno is a year and a half old and likes to eat snow. She enjoys long naps and watching Supernatural, in which her favorite character is Sam.</p>";s:16:"profileEducation";s:51:"<p>Sitting &amp; Spinning, Logan George Academy</p>";s:14:"profileSkills1";s:8:"Cuddling";s:19:"profileSkills1Level";s:2:"85";s:14:"profileSkills2";s:7:"Licking";s:19:"profileSkills2Level";s:3:"100";s:14:"profileSkills3";s:7:"Staring";s:19:"profileSkills3Level";s:2:"90";s:14:"profileSkills4";s:31:"Comforting The Stressful Humans";s:19:"profileSkills4Level";s:2:"88";}}}s:12:"parsedMarkup";s:796:"<div class="section-heading">
+</div>";s:4:"code";N;s:7:"viewBag";a:5:{s:5:"title";s:8:"About Us";s:3:"url";s:9:"/about-us";s:6:"layout";s:9:"noSidebar";s:9:"is_hidden";s:1:"0";s:17:"navigation_hidden";s:1:"0";}s:12:"parsedMarkup";s:796:"<div class="section-heading">
 
 	<h1><span>Who We Are</span></h1>
 </div>
