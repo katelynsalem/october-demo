@@ -1,8 +1,26 @@
-1529318136a:1:{s:15:"site/footer.htm";a:7:{s:8:"fileName";s:15:"site/footer.htm";s:7:"content";s:359:"description = "Footer"
+1529591855a:1:{s:15:"site/footer.htm";a:7:{s:8:"fileName";s:15:"site/footer.htm";s:7:"content";s:677:"description = "Footer"
 
 [viewBag]
 ==
-{% partial 'footer/4-column' %}
+<!--Footer-->
+<footer class="page-footer center-on-small-only">
+
+
+    <hr>
+
+
+
+    <!--Copyright-->
+    <div class="footer-copyright">
+        <div class="container-fluid">
+            © {{ 'now'|date('Y') }} Copyright: synemastudios.com
+
+        </div>
+    </div>
+    <!--/.Copyright-->
+
+</footer>
+<!--/.Footer-->
 
 <script src="{{ [
         'assets/js/jquery-3.2.1.min.js',
@@ -19,7 +37,25 @@
 </script>
 
 </body>
-</html>";s:5:"mtime";i:1524604953;s:6:"markup";s:322:"{% partial 'footer/4-column' %}
+</html>";s:5:"mtime";i:1529589141;s:6:"markup";s:640:"<!--Footer-->
+<footer class="page-footer center-on-small-only">
+
+
+    <hr>
+
+
+
+    <!--Copyright-->
+    <div class="footer-copyright">
+        <div class="container-fluid">
+            © {{ 'now'|date('Y') }} Copyright: synemastudios.com
+
+        </div>
+    </div>
+    <!--/.Copyright-->
+
+</footer>
+<!--/.Footer-->
 
 <script src="{{ [
         'assets/js/jquery-3.2.1.min.js',

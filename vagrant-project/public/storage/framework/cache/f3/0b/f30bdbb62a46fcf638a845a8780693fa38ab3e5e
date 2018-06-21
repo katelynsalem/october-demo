@@ -1,4 +1,4 @@
-1529318135a:1:{s:9:"index.htm";a:7:{s:8:"fileName";s:9:"index.htm";s:7:"content";s:10516:"[viewBag]
+1529591855a:1:{s:9:"index.htm";a:7:{s:8:"fileName";s:9:"index.htm";s:7:"content";s:10383:"[viewBag]
 title = "Welcome"
 url = "/"
 layout = "noSidebar"
@@ -48,8 +48,7 @@ section.view {
 					<div class="intro-info-content text-center">
 
 						<h1 class="display-3 white-text mb-5 wow fadeInDown" data-wow-delay="0.3s">WE BUILD <a class="synema-red font-bold">EXPERIENCES</a></h1>
-
-						<h5 class="font-up mb-5 mt-1 grey-text spacing font-bold wow fadeInDown" data-wow-delay="0.3s">We help businesses evolve &amp; grow</h5><a class="btn btn-primary btn-lg wow fadeInDown" data-wow-delay="0.3s">our work</a>
+            <a class="btn btn-primary btn-lg wow fadeInDown" data-wow-delay="0.3s">our work</a>
 						<a class="btn btn-primary synema-red btn-lg wow fadeInDown" data-wow-delay="0.3s">About us</a></div>
 				</div>
 			</div>
@@ -70,7 +69,7 @@ section.view {
 			<!--Main information-->
 			<div class="col-lg-5 wow fadeIn" data-wow-delay="0.2s">
 
-				<h2 class="h2-responsive font-bold dark-grey-text">We are professionals</h2>
+				<h2 class="h2-responsive basic-heading dark-grey-text">What We Believe</h2>
 				<hr>
 
 				<p class="dark-grey-text mt-3">Humans are made of experiences. What we love, how we act, why we make choices:
@@ -276,7 +275,7 @@ section.view {
 	<!--Second container-->
 </main>
 <!--/.Main layout-->
-";s:5:"mtime";i:1529316922;s:6:"markup";s:10416:"<!-- Intro Section -->
+";s:5:"mtime";i:1529569036;s:6:"markup";s:10283:"<!-- Intro Section -->
 <style>
 main {
     padding-top: 3rem;
@@ -319,8 +318,7 @@ section.view {
 					<div class="intro-info-content text-center">
 
 						<h1 class="display-3 white-text mb-5 wow fadeInDown" data-wow-delay="0.3s">WE BUILD <a class="synema-red font-bold">EXPERIENCES</a></h1>
-
-						<h5 class="font-up mb-5 mt-1 grey-text spacing font-bold wow fadeInDown" data-wow-delay="0.3s">We help businesses evolve &amp; grow</h5><a class="btn btn-primary btn-lg wow fadeInDown" data-wow-delay="0.3s">our work</a>
+            <a class="btn btn-primary btn-lg wow fadeInDown" data-wow-delay="0.3s">our work</a>
 						<a class="btn btn-primary synema-red btn-lg wow fadeInDown" data-wow-delay="0.3s">About us</a></div>
 				</div>
 			</div>
@@ -341,7 +339,7 @@ section.view {
 			<!--Main information-->
 			<div class="col-lg-5 wow fadeIn" data-wow-delay="0.2s">
 
-				<h2 class="h2-responsive font-bold dark-grey-text">We are professionals</h2>
+				<h2 class="h2-responsive basic-heading dark-grey-text">What We Believe</h2>
 				<hr>
 
 				<p class="dark-grey-text mt-3">Humans are made of experiences. What we love, how we act, why we make choices:
@@ -546,7 +544,7 @@ section.view {
 	</div>
 	<!--Second container-->
 </main>
-<!--/.Main layout-->";s:4:"code";N;s:7:"viewBag";a:5:{s:5:"title";s:7:"Welcome";s:3:"url";s:1:"/";s:6:"layout";s:9:"noSidebar";s:9:"is_hidden";s:1:"0";s:17:"navigation_hidden";s:1:"0";}s:12:"parsedMarkup";s:10416:"<!-- Intro Section -->
+<!--/.Main layout-->";s:4:"code";N;s:7:"viewBag";a:5:{s:5:"title";s:7:"Welcome";s:3:"url";s:1:"/";s:6:"layout";s:9:"noSidebar";s:9:"is_hidden";s:1:"0";s:17:"navigation_hidden";s:1:"0";}s:12:"parsedMarkup";s:10283:"<!-- Intro Section -->
 <style>
 main {
     padding-top: 3rem;
@@ -589,8 +587,7 @@ section.view {
 					<div class="intro-info-content text-center">
 
 						<h1 class="display-3 white-text mb-5 wow fadeInDown" data-wow-delay="0.3s">WE BUILD <a class="synema-red font-bold">EXPERIENCES</a></h1>
-
-						<h5 class="font-up mb-5 mt-1 grey-text spacing font-bold wow fadeInDown" data-wow-delay="0.3s">We help businesses evolve &amp; grow</h5><a class="btn btn-primary btn-lg wow fadeInDown" data-wow-delay="0.3s">our work</a>
+            <a class="btn btn-primary btn-lg wow fadeInDown" data-wow-delay="0.3s">our work</a>
 						<a class="btn btn-primary synema-red btn-lg wow fadeInDown" data-wow-delay="0.3s">About us</a></div>
 				</div>
 			</div>
@@ -611,7 +608,7 @@ section.view {
 			<!--Main information-->
 			<div class="col-lg-5 wow fadeIn" data-wow-delay="0.2s">
 
-				<h2 class="h2-responsive font-bold dark-grey-text">We are professionals</h2>
+				<h2 class="h2-responsive basic-heading dark-grey-text">What We Believe</h2>
 				<hr>
 
 				<p class="dark-grey-text mt-3">Humans are made of experiences. What we love, how we act, why we make choices:

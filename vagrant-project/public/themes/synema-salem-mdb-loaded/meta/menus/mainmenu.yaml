@@ -4,8 +4,10 @@ items:
         title: 'Our Work'
         nesting: '0'
         type: static-page
+        url: ''
         code: ''
         reference: our-work
+        cmsPage: ''
         replace: '0'
         viewBag:
             isHidden: '0'
@@ -13,8 +15,13 @@ items:
             isExternal: '0'
     -
         title: Services
+        nesting: ''
         type: header
+        url: ''
         code: ''
+        reference: ''
+        cmsPage: ''
+        replace: ''
         viewBag:
             isHidden: '0'
             cssClass: ''
@@ -24,8 +31,10 @@ items:
                 title: Video
                 nesting: '0'
                 type: static-page
+                url: ''
                 code: ''
                 reference: video-services
+                cmsPage: ''
                 replace: '0'
                 viewBag:
                     isHidden: '0'
@@ -35,8 +44,10 @@ items:
                 title: Audio
                 nesting: '0'
                 type: static-page
+                url: ''
                 code: ''
                 reference: audio-services
+                cmsPage: ''
                 replace: '0'
                 viewBag:
                     isHidden: '0'
@@ -46,8 +57,10 @@ items:
                 title: Marketing
                 nesting: '0'
                 type: static-page
+                url: ''
                 code: ''
                 reference: marketing-services
+                cmsPage: ''
                 replace: '0'
                 viewBag:
                     isHidden: '0'
@@ -58,7 +71,7 @@ items:
         nesting: '0'
         type: static-page
         code: ''
-        reference: team
+        reference: about-us
         replace: '0'
         viewBag:
             isHidden: '0'
@@ -68,8 +81,10 @@ items:
         title: Contact
         nesting: '0'
         type: static-page
+        url: ''
         code: ''
         reference: contact
+        cmsPage: ''
         replace: '0'
         viewBag:
             isHidden: '0'

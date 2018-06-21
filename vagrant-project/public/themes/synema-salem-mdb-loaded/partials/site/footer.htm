@@ -2,7 +2,25 @@ description = "Footer"
 
 [viewBag]
 ==
-{% partial 'footer/4-column' %}
+<!--Footer-->
+<footer class="page-footer center-on-small-only">
+
+
+    <hr>
+
+
+
+    <!--Copyright-->
+    <div class="footer-copyright">
+        <div class="container-fluid">
+            © {{ 'now'|date('Y') }} Copyright: synemastudios.com
+
+        </div>
+    </div>
+    <!--/.Copyright-->
+
+</footer>
+<!--/.Footer-->
 
 <script src="{{ [
         'assets/js/jquery-3.2.1.min.js',

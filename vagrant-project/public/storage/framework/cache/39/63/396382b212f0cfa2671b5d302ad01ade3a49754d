@@ -1,11 +1,13 @@
-1529318136a:1:{s:13:"mainmenu.yaml";a:7:{s:8:"fileName";s:13:"mainmenu.yaml";s:7:"content";s:1914:"name: MainMenu
+1529591855a:1:{s:13:"mainmenu.yaml";a:7:{s:8:"fileName";s:13:"mainmenu.yaml";s:7:"content";s:2244:"name: MainMenu
 items:
     -
         title: 'Our Work'
         nesting: '0'
         type: static-page
+        url: ''
         code: ''
         reference: our-work
+        cmsPage: ''
         replace: '0'
         viewBag:
             isHidden: '0'
@@ -13,8 +15,13 @@ items:
             isExternal: '0'
     -
         title: Services
+        nesting: ''
         type: header
+        url: ''
         code: ''
+        reference: ''
+        cmsPage: ''
+        replace: ''
         viewBag:
             isHidden: '0'
             cssClass: ''
@@ -24,8 +31,10 @@ items:
                 title: Video
                 nesting: '0'
                 type: static-page
+                url: ''
                 code: ''
                 reference: video-services
+                cmsPage: ''
                 replace: '0'
                 viewBag:
                     isHidden: '0'
@@ -35,8 +44,10 @@ items:
                 title: Audio
                 nesting: '0'
                 type: static-page
+                url: ''
                 code: ''
                 reference: audio-services
+                cmsPage: ''
                 replace: '0'
                 viewBag:
                     isHidden: '0'
@@ -46,8 +57,10 @@ items:
                 title: Marketing
                 nesting: '0'
                 type: static-page
+                url: ''
                 code: ''
                 reference: marketing-services
+                cmsPage: ''
                 replace: '0'
                 viewBag:
                     isHidden: '0'
@@ -58,7 +71,7 @@ items:
         nesting: '0'
         type: static-page
         code: ''
-        reference: team
+        reference: about-us
         replace: '0'
         viewBag:
             isHidden: '0'
@@ -68,11 +81,13 @@ items:
         title: Contact
         nesting: '0'
         type: static-page
+        url: ''
         code: ''
         reference: contact
+        cmsPage: ''
         replace: '0'
         viewBag:
             isHidden: '0'
             cssClass: ''
             isExternal: '0'
-";s:5:"mtime";i:1528992682;s:6:"markup";N;s:4:"code";N;s:4:"name";s:8:"MainMenu";s:5:"items";a:4:{i:0;O:30:"RainLab\Pages\Classes\MenuItem":13:{s:5:"title";s:8:"Our Work";s:5:"items";a:0:{}s:6:"parent";N;s:7:"nesting";s:1:"0";s:4:"type";s:11:"static-page";s:3:"url";N;s:4:"code";s:0:"";s:9:"reference";s:8:"our-work";s:7:"replace";s:1:"0";s:7:"cmsPage";N;s:6:"exists";b:0;s:8:"fillable";a:9:{i:0;s:5:"title";i:1;s:7:"nesting";i:2;s:4:"type";i:3;s:3:"url";i:4;s:4:"code";i:5;s:9:"reference";i:6;s:7:"cmsPage";i:7;s:7:"replace";i:8;s:7:"viewBag";}s:7:"viewBag";a:3:{s:8:"isHidden";s:1:"0";s:8:"cssClass";s:0:"";s:10:"isExternal";s:1:"0";}}i:1;O:30:"RainLab\Pages\Classes\MenuItem":13:{s:5:"title";s:8:"Services";s:5:"items";a:3:{i:0;O:30:"RainLab\Pages\Classes\MenuItem":13:{s:5:"title";s:5:"Video";s:5:"items";a:0:{}s:6:"parent";N;s:7:"nesting";s:1:"0";s:4:"type";s:11:"static-page";s:3:"url";N;s:4:"code";s:0:"";s:9:"reference";s:14:"video-services";s:7:"replace";s:1:"0";s:7:"cmsPage";N;s:6:"exists";b:0;s:8:"fillable";a:9:{i:0;s:5:"title";i:1;s:7:"nesting";i:2;s:4:"type";i:3;s:3:"url";i:4;s:4:"code";i:5;s:9:"reference";i:6;s:7:"cmsPage";i:7;s:7:"replace";i:8;s:7:"viewBag";}s:7:"viewBag";a:3:{s:8:"isHidden";s:1:"0";s:8:"cssClass";s:0:"";s:10:"isExternal";s:1:"0";}}i:1;O:30:"RainLab\Pages\Classes\MenuItem":13:{s:5:"title";s:5:"Audio";s:5:"items";a:0:{}s:6:"parent";N;s:7:"nesting";s:1:"0";s:4:"type";s:11:"static-page";s:3:"url";N;s:4:"code";s:0:"";s:9:"reference";s:14:"audio-services";s:7:"replace";s:1:"0";s:7:"cmsPage";N;s:6:"exists";b:0;s:8:"fillable";a:9:{i:0;s:5:"title";i:1;s:7:"nesting";i:2;s:4:"type";i:3;s:3:"url";i:4;s:4:"code";i:5;s:9:"reference";i:6;s:7:"cmsPage";i:7;s:7:"replace";i:8;s:7:"viewBag";}s:7:"viewBag";a:3:{s:8:"isHidden";s:1:"0";s:8:"cssClass";s:0:"";s:10:"isExternal";s:1:"0";}}i:2;O:30:"RainLab\Pages\Classes\MenuItem":13:{s:5:"title";s:9:"Marketing";s:5:"items";a:0:{}s:6:"parent";N;s:7:"nesting";s:1:"0";s:4:"type";s:11:"static-page";s:3:"url";N;s:4:"code";s:0:"";s:9:"reference";s:18:"marketing-services";s:7:"replace";s:1:"0";s:7:"cmsPage";N;s:6:"exists";b:0;s:8:"fillable";a:9:{i:0;s:5:"title";i:1;s:7:"nesting";i:2;s:4:"type";i:3;s:3:"url";i:4;s:4:"code";i:5;s:9:"reference";i:6;s:7:"cmsPage";i:7;s:7:"replace";i:8;s:7:"viewBag";}s:7:"viewBag";a:3:{s:8:"isHidden";s:1:"0";s:8:"cssClass";s:0:"";s:10:"isExternal";s:1:"0";}}}s:6:"parent";N;s:7:"nesting";N;s:4:"type";s:6:"header";s:3:"url";N;s:4:"code";s:0:"";s:9:"reference";N;s:7:"replace";N;s:7:"cmsPage";N;s:6:"exists";b:0;s:8:"fillable";a:9:{i:0;s:5:"title";i:1;s:7:"nesting";i:2;s:4:"type";i:3;s:3:"url";i:4;s:4:"code";i:5;s:9:"reference";i:6;s:7:"cmsPage";i:7;s:7:"replace";i:8;s:7:"viewBag";}s:7:"viewBag";a:3:{s:8:"isHidden";s:1:"0";s:8:"cssClass";s:0:"";s:10:"isExternal";s:1:"0";}}i:2;O:30:"RainLab\Pages\Classes\MenuItem":13:{s:5:"title";s:8:"About Us";s:5:"items";a:0:{}s:6:"parent";N;s:7:"nesting";s:1:"0";s:4:"type";s:11:"static-page";s:3:"url";N;s:4:"code";s:0:"";s:9:"reference";s:4:"team";s:7:"replace";s:1:"0";s:7:"cmsPage";N;s:6:"exists";b:0;s:8:"fillable";a:9:{i:0;s:5:"title";i:1;s:7:"nesting";i:2;s:4:"type";i:3;s:3:"url";i:4;s:4:"code";i:5;s:9:"reference";i:6;s:7:"cmsPage";i:7;s:7:"replace";i:8;s:7:"viewBag";}s:7:"viewBag";a:3:{s:8:"isHidden";s:1:"0";s:8:"cssClass";s:0:"";s:10:"isExternal";s:1:"0";}}i:3;O:30:"RainLab\Pages\Classes\MenuItem":13:{s:5:"title";s:7:"Contact";s:5:"items";a:0:{}s:6:"parent";N;s:7:"nesting";s:1:"0";s:4:"type";s:11:"static-page";s:3:"url";N;s:4:"code";s:0:"";s:9:"reference";s:7:"contact";s:7:"replace";s:1:"0";s:7:"cmsPage";N;s:6:"exists";b:0;s:8:"fillable";a:9:{i:0;s:5:"title";i:1;s:7:"nesting";i:2;s:4:"type";i:3;s:3:"url";i:4;s:4:"code";i:5;s:9:"reference";i:6;s:7:"cmsPage";i:7;s:7:"replace";i:8;s:7:"viewBag";}s:7:"viewBag";a:3:{s:8:"isHidden";s:1:"0";s:8:"cssClass";s:0:"";s:10:"isExternal";s:1:"0";}}}}}
+";s:5:"mtime";i:1529574680;s:6:"markup";N;s:4:"code";N;s:4:"name";s:8:"MainMenu";s:5:"items";a:4:{i:0;O:30:"RainLab\Pages\Classes\MenuItem":13:{s:5:"title";s:8:"Our Work";s:5:"items";a:0:{}s:6:"parent";N;s:7:"nesting";s:1:"0";s:4:"type";s:11:"static-page";s:3:"url";s:0:"";s:4:"code";s:0:"";s:9:"reference";s:8:"our-work";s:7:"replace";s:1:"0";s:7:"cmsPage";s:0:"";s:6:"exists";b:0;s:8:"fillable";a:9:{i:0;s:5:"title";i:1;s:7:"nesting";i:2;s:4:"type";i:3;s:3:"url";i:4;s:4:"code";i:5;s:9:"reference";i:6;s:7:"cmsPage";i:7;s:7:"replace";i:8;s:7:"viewBag";}s:7:"viewBag";a:3:{s:8:"isHidden";s:1:"0";s:8:"cssClass";s:0:"";s:10:"isExternal";s:1:"0";}}i:1;O:30:"RainLab\Pages\Classes\MenuItem":13:{s:5:"title";s:8:"Services";s:5:"items";a:3:{i:0;O:30:"RainLab\Pages\Classes\MenuItem":13:{s:5:"title";s:5:"Video";s:5:"items";a:0:{}s:6:"parent";N;s:7:"nesting";s:1:"0";s:4:"type";s:11:"static-page";s:3:"url";s:0:"";s:4:"code";s:0:"";s:9:"reference";s:14:"video-services";s:7:"replace";s:1:"0";s:7:"cmsPage";s:0:"";s:6:"exists";b:0;s:8:"fillable";a:9:{i:0;s:5:"title";i:1;s:7:"nesting";i:2;s:4:"type";i:3;s:3:"url";i:4;s:4:"code";i:5;s:9:"reference";i:6;s:7:"cmsPage";i:7;s:7:"replace";i:8;s:7:"viewBag";}s:7:"viewBag";a:3:{s:8:"isHidden";s:1:"0";s:8:"cssClass";s:0:"";s:10:"isExternal";s:1:"0";}}i:1;O:30:"RainLab\Pages\Classes\MenuItem":13:{s:5:"title";s:5:"Audio";s:5:"items";a:0:{}s:6:"parent";N;s:7:"nesting";s:1:"0";s:4:"type";s:11:"static-page";s:3:"url";s:0:"";s:4:"code";s:0:"";s:9:"reference";s:14:"audio-services";s:7:"replace";s:1:"0";s:7:"cmsPage";s:0:"";s:6:"exists";b:0;s:8:"fillable";a:9:{i:0;s:5:"title";i:1;s:7:"nesting";i:2;s:4:"type";i:3;s:3:"url";i:4;s:4:"code";i:5;s:9:"reference";i:6;s:7:"cmsPage";i:7;s:7:"replace";i:8;s:7:"viewBag";}s:7:"viewBag";a:3:{s:8:"isHidden";s:1:"0";s:8:"cssClass";s:0:"";s:10:"isExternal";s:1:"0";}}i:2;O:30:"RainLab\Pages\Classes\MenuItem":13:{s:5:"title";s:9:"Marketing";s:5:"items";a:0:{}s:6:"parent";N;s:7:"nesting";s:1:"0";s:4:"type";s:11:"static-page";s:3:"url";s:0:"";s:4:"code";s:0:"";s:9:"reference";s:18:"marketing-services";s:7:"replace";s:1:"0";s:7:"cmsPage";s:0:"";s:6:"exists";b:0;s:8:"fillable";a:9:{i:0;s:5:"title";i:1;s:7:"nesting";i:2;s:4:"type";i:3;s:3:"url";i:4;s:4:"code";i:5;s:9:"reference";i:6;s:7:"cmsPage";i:7;s:7:"replace";i:8;s:7:"viewBag";}s:7:"viewBag";a:3:{s:8:"isHidden";s:1:"0";s:8:"cssClass";s:0:"";s:10:"isExternal";s:1:"0";}}}s:6:"parent";N;s:7:"nesting";s:0:"";s:4:"type";s:6:"header";s:3:"url";s:0:"";s:4:"code";s:0:"";s:9:"reference";s:0:"";s:7:"replace";s:0:"";s:7:"cmsPage";s:0:"";s:6:"exists";b:0;s:8:"fillable";a:9:{i:0;s:5:"title";i:1;s:7:"nesting";i:2;s:4:"type";i:3;s:3:"url";i:4;s:4:"code";i:5;s:9:"reference";i:6;s:7:"cmsPage";i:7;s:7:"replace";i:8;s:7:"viewBag";}s:7:"viewBag";a:3:{s:8:"isHidden";s:1:"0";s:8:"cssClass";s:0:"";s:10:"isExternal";s:1:"0";}}i:2;O:30:"RainLab\Pages\Classes\MenuItem":13:{s:5:"title";s:8:"About Us";s:5:"items";a:0:{}s:6:"parent";N;s:7:"nesting";s:1:"0";s:4:"type";s:11:"static-page";s:3:"url";N;s:4:"code";s:0:"";s:9:"reference";s:8:"about-us";s:7:"replace";s:1:"0";s:7:"cmsPage";N;s:6:"exists";b:0;s:8:"fillable";a:9:{i:0;s:5:"title";i:1;s:7:"nesting";i:2;s:4:"type";i:3;s:3:"url";i:4;s:4:"code";i:5;s:9:"reference";i:6;s:7:"cmsPage";i:7;s:7:"replace";i:8;s:7:"viewBag";}s:7:"viewBag";a:3:{s:8:"isHidden";s:1:"0";s:8:"cssClass";s:0:"";s:10:"isExternal";s:1:"0";}}i:3;O:30:"RainLab\Pages\Classes\MenuItem":13:{s:5:"title";s:7:"Contact";s:5:"items";a:0:{}s:6:"parent";N;s:7:"nesting";s:1:"0";s:4:"type";s:11:"static-page";s:3:"url";s:0:"";s:4:"code";s:0:"";s:9:"reference";s:7:"contact";s:7:"replace";s:1:"0";s:7:"cmsPage";s:0:"";s:6:"exists";b:0;s:8:"fillable";a:9:{i:0;s:5:"title";i:1;s:7:"nesting";i:2;s:4:"type";i:3;s:3:"url";i:4;s:4:"code";i:5;s:9:"reference";i:6;s:7:"cmsPage";i:7;s:7:"replace";i:8;s:7:"viewBag";}s:7:"viewBag";a:3:{s:8:"isHidden";s:1:"0";s:8:"cssClass";s:0:"";s:10:"isExternal";s:1:"0";}}}}}
